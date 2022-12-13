@@ -1,1 +1,1 @@
-const numbers = [];
+export const numbers = [20,12,0,9,7,8,90,5,4,23];
