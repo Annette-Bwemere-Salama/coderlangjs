@@ -1,5 +1,4 @@
-// import { sayHello } from './helper.js';
-import sayHello from "./helper"
+import { sayHello } from './helper.js';
 
-sayHello('John');   // Hello, John!
-sayHello('Sandy');  // Hello, Sandy!
+console.log(sayHello('John'));   // Hello, John!
+console.log(sayHello('Sandy'));  // Hello, Sandy!
