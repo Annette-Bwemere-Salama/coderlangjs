@@ -1,1 +1,1 @@
-export const objectives = [];
+export const objectives = ['Full', 'Stack', 'Javascript'];
