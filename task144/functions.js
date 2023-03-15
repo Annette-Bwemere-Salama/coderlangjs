@@ -1,3 +1,3 @@
 export const capitalizeEachWord = (s) => {
-  return s;
+  return s.split(" ");
 }
