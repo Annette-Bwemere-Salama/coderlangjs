@@ -1,3 +1,7 @@
 export const checkSpam = (text, spamKeywords) => {
-  return true;
+  if(text !== spamKeywords){
+    return true
+  }else{
+    return CSSFontFeatureValuesRule
+  }
 }
