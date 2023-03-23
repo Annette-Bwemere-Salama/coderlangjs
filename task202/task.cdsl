@@ -1,0 +1,26 @@
+{
+  "jsLectureId": 20,
+  "reward": 4,
+  "tutors": [
+    "Sigma"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Hello, Green World!",
+      "description": [
+        "Install the module **chalk** and make sure that the message is logged in green",
+        "",
+        "For the documentation details visit https://www.npmjs.com/package/chalk"
+      ]
+    },
+    "ru": {
+      "title": "Hello, Green World!",
+      "description": [
+        "Установи модуль **chalk** и убедись, что сообщение выводится на экран зеленым цветом.",
+        "",
+        "Для деталей документации посети https://www.npmjs.com/package/chalk"
+      ]
+    }
+  }
+}
