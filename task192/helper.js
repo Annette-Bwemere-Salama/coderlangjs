@@ -1,5 +1,10 @@
 import { dangerousFunction } from './functions.js';
 
 export const safeCall = () => {
-  dangerousFunction();
+  try {
+    
+    dangerousFunction();
+  } catch (error) {
+    console.log(error);
+  }
 }
