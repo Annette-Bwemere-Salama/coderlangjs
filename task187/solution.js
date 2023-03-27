@@ -6,6 +6,7 @@ const cat = {
   isHappy: true,
 }
 
+
 const dog = {
   name: 'Rex',
   age: '2',
