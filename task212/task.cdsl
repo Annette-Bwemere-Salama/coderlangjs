@@ -1,0 +1,24 @@
+{
+  "jsLectureId": 21,
+  "reward": 3,
+  "tutors": [
+    "Technic"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Only apples",
+      "description": [
+        "Implement the function `getApples` in `functions.js`",
+        "It should take an array of fruits and return a new array that consists only of apples"
+      ]
+    },
+    "ru": {
+      "title": "Только яблоки",
+      "description": [
+        "Реализуй функцию `getApples` в файле `functions.js`",
+        "Она должна принять массив фруктов и вернуть новый массив, состоящий только из яблок"
+      ]
+    }
+  }
+}

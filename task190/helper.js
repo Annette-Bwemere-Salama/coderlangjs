@@ -1,3 +1,12 @@
 export const errorPractice = (name, surname) => {
-  console.log(`Hey, ${name} ${surname}! Welcome to the JavaScript error practice.`)
+
+ try {
+throw console.log(`Hey, ${name} ${surname}! Welcome to the JavaScript error practice.`)
+
+} catch(e) {
+  console.log(e.message);
+
 }
+
+
+  }

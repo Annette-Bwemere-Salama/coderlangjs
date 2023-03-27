@@ -1,0 +1,25 @@
+{
+  "jsLectureId": 21,
+  "reward": 2,
+  "tutors": [
+    "Technic"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Print with forEach",
+      "description": [
+        "Implement the function `logNames` that prints all usernames to the console using `forEach`",
+        "Each name should be printed on a new line"
+      ]
+    },
+    "ru": {
+      "title": "Печатаем с помощью forEach",
+      "description": [
+        "Реализуй функцию `logNames` в файле `helper.js`, которая выводит на экран имена всех пользователей",
+        "используя цикл `forEach`",
+        "Каждое имя выводи с новой строки."
+      ]
+    }
+  }
+}
