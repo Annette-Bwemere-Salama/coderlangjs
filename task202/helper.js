@@ -1,5 +1,5 @@
-import chalk from '';
+import chalk from 'chalk';
 
 export const sayHello = () => {
-  console.log(chalk('Hello, Green World!'));
+  console.log(chalk.green('Hello, Green World!'));
 };
