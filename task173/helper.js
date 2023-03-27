@@ -1,1 +1,1 @@
-export const getTestData = () => { name: 'Jane', age: 22 };
+export const getTestData = () => ({ name: 'Jane', age: 22 });

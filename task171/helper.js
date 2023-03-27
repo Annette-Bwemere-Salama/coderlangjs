@@ -1,1 +1,1 @@
-sum = (x, y) => return x - y;
+export let sum = (x, y) => x + y;
