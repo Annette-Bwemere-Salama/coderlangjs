@@ -1,6 +1,9 @@
 export const isKeyPresent = (obj, key) => {
-if (key in obj ) {
-  return obj[key]
+for (const ky in obj ) {
+  if(key === ky){
+
+    return true;
+  }
 }
   return false;
 }
