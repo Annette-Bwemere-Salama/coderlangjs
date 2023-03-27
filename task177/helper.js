@@ -1,1 +1,1 @@
-export const isOfAge = () => false;
+export const isOfAge = (age) => age >= 21;
