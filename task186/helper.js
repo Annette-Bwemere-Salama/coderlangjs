@@ -1,3 +1,6 @@
 export const getObjectKeys = (obj) => {
-  return [];
-}
+  const keys = []
+  for(const  key in obj){
+    keys.push(key)}
+    return keys;
+  }
