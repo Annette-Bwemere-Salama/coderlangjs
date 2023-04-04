@@ -1,11 +1,14 @@
 export const startCountdown = (n) => {
-  setInterval(() => {
-    let i = 0;
-    if (i < n) {
-      console.log(n - i);
-      i++;
-    } else {
+  let i = n;
+  
+  const intervalId = setInterval(() => {
+    console.log(i);
+    
+    if (i === 1) {
       console.log('GO!');
+      clearInterval(intervalId);
     }
-  }, 1000)
+    
+    i--;
+  }, 100);
 }
