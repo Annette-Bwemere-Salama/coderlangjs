@@ -1,5 +1,5 @@
 export const divideBy = (divisor) => {
-  return () => {
-
+  return (n) => {
+    return n/divisor
   };
 }
