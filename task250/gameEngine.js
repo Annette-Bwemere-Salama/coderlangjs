@@ -1,4 +1,6 @@
-export const startMiningGame=()=>{
+import { init } from "./functions"
+export const startMiningGame=(term)=>{
+init(term);
 
 }
 
