@@ -1,3 +1,3 @@
 export const isShortWord = (s) => {
-  return true;
+  return s.length < 10 && !/\s/.test(s);;
 }
