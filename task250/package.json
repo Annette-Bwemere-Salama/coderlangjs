@@ -7,5 +7,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "terminal-kit": "^3.0.0"
   }
 }
