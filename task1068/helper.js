@@ -1,3 +1,3 @@
 export const revertMe = (s) => {
-  return s;
+  return s.split("").reverse().join("");
 }

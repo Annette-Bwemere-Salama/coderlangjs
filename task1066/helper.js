@@ -1,3 +1,5 @@
 export const slowLog = (s) => {
-  console.log(s);
+  setTimeout(() => {
+    console.log(s);
+  }, 3000);
 }
