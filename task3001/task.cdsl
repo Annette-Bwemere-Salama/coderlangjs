@@ -1,0 +1,30 @@
+{
+  "jsLectureId": 300,
+  "reward": 10,
+  "entryPoint": "my_app",
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Create react app",
+      "description": [
+        "Using `create-react-app` create the new React app.",
+        "It should appear inside `my_app` folder.",
+        "",
+        "Please import react to `App.js` file to pass tests."
+      ]
+    },
+    "ru": {
+      "title": "Create react app",
+      "description": [
+        "С помощью `create-react-app` создайте новое приложение React.",
+        "Оно должно появиться внутри папки `my_app`.",
+        "",
+        "Для успешной сдачи задачи, пожалуйста, импортируй react в `App.js`."
+      ]
+    }
+  }
+}

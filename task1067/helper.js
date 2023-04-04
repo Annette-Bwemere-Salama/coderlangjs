@@ -1,3 +1,3 @@
 export const isPalindrome = (s) => {
-  return false;
+  return s === s.split("").reverse().join("") ? true : false;
 }

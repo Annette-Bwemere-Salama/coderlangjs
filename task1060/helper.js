@@ -1,3 +1,3 @@
 export const max = (a, b, c) => {
-  return 0;
+  return Math.max(a, b,c);
 }

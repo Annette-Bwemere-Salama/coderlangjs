@@ -1,3 +1,3 @@
 export const concatenateArrays = (arr1, arr2) => {
-  return [];
+  return arr1.concat(arr2);
 }
