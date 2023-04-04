@@ -1,1 +1,1 @@
-// LET'S DIG SOME GOLD!
+import {startMiningGame} from "./gameEngine"
