@@ -9,11 +9,11 @@ function CountryResults(props) {
     <div>
       <h2>{country}</h2>
       <ul>
-        <li>{...total}</li>
+        {/* <li>{...total}</li> */}
         <li>Golder: {gold}</li>
         <li>silver: {silver}</li>
         <li>Bronze: {bronze}</li>
-
+        <li>Total: {total}</li>
       </ul>
     </div>
   )
