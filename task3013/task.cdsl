@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 301,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Variables use",
+      "description": [
+        "Let's refine the element that will show the sum of two numbers.",
+        "The element in the `src/element.js` file must return the `h4` heading.",
+        "The text inside `h4` heading must be the following: `The sum is: {sum result}`.",
+        "{sum result} - the result of summing the function arguments."
+      ]
+    },
+    "ru": {
+      "title": "Использование переменных",
+      "description": [
+        "Доработаем элемент, который покажет сумму двух чисел.",
+        "Элемент в файле `src/element.js` должен возвращать заголовок `h4`.",
+        "Текст внутри заголовка `h4` должен быть следующим: `The sum is: {sum result}`.",
+        "{sum result} - результат суммирования аргументов функции."
+      ]
+    }
+  }
+}

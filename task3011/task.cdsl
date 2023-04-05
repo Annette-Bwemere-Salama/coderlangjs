@@ -1,0 +1,25 @@
+{
+  "jsLectureId": 301,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "First ReactJS element",
+      "description": [
+        "Your colleague is completely new. He made a mistake in a new project.",
+        "But he doesn't know where exactly. Help him figure out why his code is causing the error."
+      ]
+    },
+    "ru": {
+      "title": "Первый элемент ReactJS",
+      "description": [
+        "Твой коллега совсем новичок. Он сделал в новом проекте ошибку.",
+        "Но он не понимает где именно. Помоги ему разобраться, почему его код вызывает ошибку."
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 301,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "React.createElement",
+      "description": [
+        "Let's practice creating an element using the `React.createElement` function.",
+        "In the `src/index.js` file, the element constant must equal the result of calling the `React.createElement` method.",
+        "The created element must be a header `h2` with the text - `Wow, I did it!`."
+      ]
+    },
+    "ru": {
+      "title": "React.createElement",
+      "description": [
+        "Потренируемся в создании элемента с помощью функции `React.createElement`.",
+        "В файле `src/index.js` константа element должна равняться результату вызова метода `React.createElement`.",
+        "Созданным элементом должен быть заголовок `h2` с текстом - `Wow, I did it!`."
+      ]
+    }
+  }
+}

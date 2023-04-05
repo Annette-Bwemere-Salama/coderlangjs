@@ -1,0 +1,33 @@
+{
+  "jsLectureId": 301,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Complex elements",
+      "description": [
+        "The `element` function in the `src/element.js` file must return a complex element.",
+        "The element itself must be a `div` block with two children: `div` and `h2`.",
+        "Inside the first child element - a `div` - add the text `Welcome on board`.",
+        "Inside the second child element - `h2`, add the username.",
+        "The username is a space-separated `firstName` and `lastName` derived from `getUser`.",
+        "Do not modify the `index.js` file and `getUser.js`."
+      ]
+    },
+    "ru": {
+      "title": "Сложные элементы",
+      "description": [
+        "Функция `element` в файле `src/element.js` должна возвращать сложный элемент.",
+        "Сам элемент должен представлять из себя блок `div` с двумя дочерними элементами: `div` и `h2`.",
+        "Внутри первого дочернего элемента - `div` - добавь текст `Welcome on board`.",
+        "Внутри второго дочернего элемента - `h2` добавь имя пользователя.",
+        "Имя пользователя представляет собой разделенные пробелом `firstName` и `lastName` полученные из `getUser`.",
+        "Не изменяй `index.js` файл и `getUser.js`."
+      ]
+    }
+  }
+}

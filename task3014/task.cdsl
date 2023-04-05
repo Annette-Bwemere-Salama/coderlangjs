@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 301,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Work with attributes",
+      "description": [
+        "The `element` function in the `src/element.js` file must return a link.",
+        "The link text should be `Google`, clicking on the link should open the `google.com` page.",
+        "The `target` attribute of the link must be equal to the argument of the `element` function.",
+        "If no argument is supplied, the target attribute must be equal to `_self`."
+      ]
+    },
+    "ru": {
+      "title": "Работа с атрибутами",
+      "description": [
+        "Функция `element` в файле `src/element.js` должна возвращать ссылку.",
+        "Текст ссылки должен быть `Google`, нажатие на ссылку должно открыть страницу `google.com`.",
+        "Атрибут `target` ссылки должен равняться аргументу функции `element`.",
+        "Если аргумент не передан, атрибут `target` должен равняться `_self`."
+      ]
+    }
+  }
+}
