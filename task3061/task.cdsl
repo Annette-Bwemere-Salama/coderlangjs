@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 306,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Not controlled input",
+      "description": [
+        "The `App` component should return not controlled input.",
+        "The input field should have the `Name` placeholder.",
+        "The entered value should be saved to state to `name` field."
+      ]
+    },
+    "ru": {
+      "title": "Неконтролируемое поле ввода",
+      "description": [
+        "Компонент `App` должен рендерить неконтролируемое поле ввода.",
+        "У поля ввода должен быть плейсхолдер `Name`.",
+        "Введенное значение необходимо сохранить в состоянии в поле `name`."
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "jsLectureId": 302,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Olympic games",
+      "description": [
+        "Create the `CountryResults` component inside `src/components` folder",
+        "This component should receive two props: `country` and `medals`.",
+        "The `country` props is string, the `medals` prop is object with three fields: `gold`, `silver`, `bronze`.",
+        "",
+        "The `CountryResults` component should return the `div` element.",
+        "Inside `div` add `h2` heading which will display the `country` prop.",
+        "",
+        "Add `ul` element after `h2`. Inside `ul` there will be four `li` items with medals values.",
+        "For example we have `medals` object like this: `{gold: 1, silver: 2, bronze: 3}`",
+        "Then first `li` should be: `Gold: 1`, second - `Silver: 2`, third - `Bronze: 3`, fourth - `Total: 6`.",
+        "",
+        "The `App` component should render `CountryResults` component twice inside `div`:",
+        "first time for first item inside `olympicGamesResult` array, second time - for second item.",
+        "",
+        "Use default export for `CountryResults` component"
+      ]
+    },
+    "ru": {
+      "title": "Олимпийские игры",
+      "description": [
+        "Создайте компонент `CountryResults` внутри папки `src/components`.",
+        "Этот компонент должен получить два свойства: `country` и `medals`.",
+        "Свойство `country`- строка, свойство  `medals` - это объект с тремя полями: `gold`, `silver`, `bronze`.",
+        "",
+        "Компонент `CountryResults` должен возвращать элемент `div`.",
+        "Внутри` div` добавьте заголовок `h2`, который будет отображать свойство `country`.",
+        "",
+        "Добавь элемент `ul` после `h2`. Внутри `ul` будет четыре элемента `li` со значениями количества медалей.",
+        "Например, у нас есть такой объект `medals`: `{gold: 1, silver: 2, bronze: 3}`",
+        "Тогда первый `li` должен быть: `Gold: 1`, второй - `Silver: 2`, третий - `Bronze: 3`, четвертый - `Total: 6`. ",
+        "",
+        "Компонент `App` должен рендерить компонент `CountryResults` дважды внутри `div`: ",
+        "первый раз для первого элемента в массиве `olympicGamesResult`, второй раз - для второго элемента.",
+        "",
+        "Используй экспорт по умолчанию для компонента `CountryResults`"
+      ]
+    }
+  }
+}

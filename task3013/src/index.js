@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { element } from './element';
-
-ReactDOM.render(element(2, 2), document.getElementById('root'));
+let result = (2, 3);
+const el = React.createElement("h4", "The sum is:", <h4>{element(result)}</h4>);
+ReactDOM.render(
+    el, document.getElementById('root'));

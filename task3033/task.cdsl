@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 303,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "On mount",
+      "description": [
+        "You should finish the `App` component.",
+        "The `App` component should have the `userName` state prop.",
+        "This state prop should be equal to `John Doe`.",
+        "When component is mounted, the `userName` should be updated to `Jane Doe`.",
+        "The `userName` prop should be rendered inside `div` tag."
+      ]
+    },
+    "ru": {
+      "title": "On mount",
+      "description": [
+        "Тебе нужно закончить компонент `App`.",
+        "Компонент `App` должен иметь свойство состояния `userName`.",
+        "Это свойство состояния должно быть добавлено со значением `John Doe`.",
+        "Когда компонент монтируется, `userName` должен быть обновлен до `Jane Doe`.",
+        "Свойство `userName` должно рендериться внутри тега `div`."
+      ]
+    }
+  }
+}

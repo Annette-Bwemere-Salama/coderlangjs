@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 303,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Working with state",
+      "description": [
+        "You should finish the `App` component.",
+        "The `App` component should render a `div` element.",
+        "The `I am class components master` string should be the inner text of the `div` element."
+      ]
+    },
+    "ru": {
+      "title": "Работаем с состоянием",
+      "description": [
+        "Ты должен закончить компонент `App`.",
+        "Компонент `App` должен рендерить элемент `div`.",
+        "`I am class components master` должно быть внутренним текстом элемента `div`."
+      ]
+    }
+  }
+}

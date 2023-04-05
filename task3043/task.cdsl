@@ -1,0 +1,37 @@
+{
+  "jsLectureId": 304,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Update after update",
+      "description": [
+          "Let's finish the `App` component",
+          "After user clicks on any page button we should set the corresponding `data` field to `currentPageData` state field.",
+          "But we should do that only if the `page` field of state actually changed",
+          "For ex.: if current `state.page` value is `1`, and user clicks `Page 1` button - we should not update `state.currentPageData`",
+          "",
+          "You should use `componentDidUpdate` method",
+          "",
+          "Do not change any methods and state inside the `App` component"
+      ]
+    },
+    "ru": {
+      "title": "Обновление после обновления",
+      "description": [
+        "Давайте доработаем компонент `App`",
+        "После того, как пользователь нажмет на любую кнопку страницы, необходимо установить соответствующее поле `data` в поле состояния `currentPageData`.",
+        "Но мы должны делать это только в том случае, если поле состояния `page` действительно изменилось",
+        "Например: если текущее значение `state.page` равно `1`, и пользователь нажимает кнопку `Page 1`, мы не должны обновлять `state.currentPageData`",
+        "",
+        "Используй метод `componentDidUpdate`",
+        "",
+        "Не изменяй никакие методы и состояние внутри компонента `App`."
+      ]
+    }
+  }
+}

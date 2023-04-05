@@ -1,0 +1,33 @@
+{
+  "jsLectureId": 302,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Greeting component",
+      "description": [
+        "The `App.js` component should render the `Greeting` component.",
+        "Create the `Greeting` component inside `src/components` folder.",
+        "That component should return `div` with `Hello from my first component` text.",
+        "The `Greeting` component function should be called `Greeting`.",
+        "",
+        "Use default export for `Greeting` component"
+      ]
+    },
+    "ru": {
+      "title": "Компонент приветствие",
+      "description": [
+        "Компонент `App.js` должен рендерить компонент `Greeting`.",
+        "Компонент `Greeting` создай в папке `src/components`.",
+        "Этот компонент должен возвращать `div` с текстом `Hello from my first component`.",
+        "Функция компонента `Greeting` должна быть названа `Greeting`.",
+        "",
+        "Используй экспорт по умолчанию для компонента `Greeting`"
+      ]
+    }
+  }
+}

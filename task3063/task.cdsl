@@ -1,0 +1,35 @@
+{
+  "jsLectureId": 306,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Select tech stack",
+      "description": [
+        "The `App` component should return the `select` element.",
+        "The first `option` inside the `select` should be without value - it is going to be the `select` placeholder.",
+        "It's inner text should be `Select Technology`.",
+        "Then there should be four options with values: `HTML`, `CSS`, `JS`, `React`.",
+        "Labels should be the same as values.",
+        "The selected option should be saved to state field - `techStack`.",
+        "Initially field should be `undefined`."
+      ]
+    },
+    "ru": {
+      "title": "Выбор основной технологии",
+      "description": [
+        "Компонент `App` должен возвращать элемент `select`.",
+        "Первый `option` внутри `select` должен быть без значения - это будет заполнитель `select`.",
+        "Внутренний текст должен быть `Select Technology`.",
+        "Тогда должно быть четыре варианта со значениями: `HTML`, `CSS`, `JS`, `React`.",
+        "Текст внутри этих `option` должны быть такими же, как и значения.",
+        "Выбранный вариант необходимо сохранить в поле состояния `techStack`.",
+        "Изначально поле должно быть `undefined`."
+      ]
+    }
+  }
+}

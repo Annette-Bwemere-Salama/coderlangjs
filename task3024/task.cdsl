@@ -1,0 +1,49 @@
+{
+  "jsLectureId": 302,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Training is the path to success",
+      "description": [
+        "Lets train to build components more.",
+        "The `App.js` component uses `Countries` and `Cities` components. Create them.",
+        "Both components should return `div` element.",
+        "Inside `div` element `h2` and `h4` headings should be for both components.",
+        "",
+        "For `Countries` component inside `h2` heading should be the following text: `Largest countries`;",
+        "inside `h4` - `Russia, Canada, USA, China`.",
+        "",
+        "For `Cities` component inside `h2` heading should be the following text: `Largest cities`;",
+        "inside `h4` - `Tokyo-Yokohama, Jakarta, Delhi, Manila`.",
+        "",
+        "Don't change the `App.js` component.",
+        "",
+        "Use default export for `Countries` and `Cities` components"
+      ]
+    },
+    "ru": {
+      "title": "Компонент приветствие",
+      "description": [
+        "Давайте потренируемся создавать больше компонентов",
+        "Компонент `App.js` использует компоненты `Countries` и` Cities`. Создай их.",
+        "Оба компонента должны возвращать элемент `div`.",
+        "Внутри элемента `div` должны быть заголовки `h2` и `h4` для обоих компонентов.",
+        "",
+        "Для компонента `Countries` внутри заголовка `h2` должен быть следующий текст: `Largest countries`;",
+        "внутри `h4` - `Russia, Canada, USA, China`.",
+        "",
+        "Для компонента `Cities` внутри заголовка `h2` должен быть следующий текст: `Largest cities`;",
+        "внутри `h4` - `Tokyo-Yokohama, Jakarta, Delhi, Manila`.",
+        "",
+        "Не изменяй компонент `App.js`.",
+        "",
+        "Используй экспорт по умолчанию для компонентов `Countries` и `Cities`"
+      ]
+    }
+  }
+}

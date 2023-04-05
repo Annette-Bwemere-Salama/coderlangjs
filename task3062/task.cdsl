@@ -1,0 +1,33 @@
+{
+  "jsLectureId": 306,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Controlled textarea",
+      "description": [
+        "The `App` component should return the controlled textarea.",
+        "The textarea should have the `My secret diary` placeholder.",
+        "The entered value should be saved to state to `note` field.",
+        "But before save lets do some changes - add entered string length at the end of this string.",
+        "Example: after user enter `a` symbol - `a1` should be saved to state.",
+        "Then user enter `b` - a1b3 should be saved to state."
+      ]
+    },
+    "ru": {
+      "title": "Неконтролируемое поле ввода",
+      "description": [
+        "Компонент `App` должен возвращать контролируемое текстовое поле.",
+        "В текстовой области должен быть заполнитель `My secret diary`.",
+        "Введенное значение необходимо сохранить в состояние в поле `note`.",
+        "Но перед сохранением внесем некоторые изменения - добавим длину введенной строки в конец этой строки.",
+        "Пример: после того, как пользователь ввел символ `a` - `a1` должно быть сохранено в состоянии.",
+        "Затем пользователь вводит `b` - a1b3 должен быть сохранено в состояние."
+      ]
+    }
+  }
+}

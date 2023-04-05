@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 307,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "AB test",
+      "description": [
+        "We will add AB test for `TestGroupHeading` component.",
+        "",
+        "If `testGroup` is equal to `groupA` lets render the `HeadingA` component.",
+        "For `groupB` `testGroup` lets render the `HeadingB` component.",
+        "Also lets render the `HeadingB` component for any other `testGroup`, even if it is not passed."
+      ]
+    },
+    "ru": {
+      "title": "Неконтролируемое поле ввода",
+      "description": [
+        "Мы добавим AB тест для компонента `TestGroupHeading`.",
+        "",
+        "Если `testGroup` равно `groupA`, давай рендерить компонент `HeadingA`.",
+        "Для `groupB` `testGroup` давай рендерить компонент `HeadingB`.",
+        "Также давай рендерить компонент `HeadingB` для любого другого значения `testGroup`, даже если он не передан."
+      ]
+    }
+  }
+}

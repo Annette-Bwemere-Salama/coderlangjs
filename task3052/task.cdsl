@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 305,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Save data to state",
+      "description": [
+        "There is an input in the `App` component.",
+        "The entered string from this input should be saved to the state (`country` field).",
+        "Also the input value should be taken from the state."
+      ]
+    },
+    "ru": {
+      "title": "Сохранить данные в состояние",
+      "description": [
+        "В компоненте `App` есть поле ввода.",
+        "Введенная строка из этого поля ввода должна быть сохранена в состоянии (поле `country`).",
+        "Также значение для поля ввода должно быть взято из состояния"
+      ]
+    }
+  }
+}

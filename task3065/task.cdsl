@@ -1,0 +1,73 @@
+{
+  "jsLectureId": 306,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "How old are you?",
+      "description": [
+        "Lets work with several checkboxes"
+      ],
+      "stages": {
+        "1": [
+          "Lets finish `AgeCheckBox` component first.",
+          "This component should return `div` element with `label` and `input` inside.",
+          "The `label` prop of the component should be used as inner text of the `label` element.",
+          "Also lets use it for linking `label` and `input` element (tip - `htmlFor` and `id` attributes).",
+          "",
+          "The `input` should be displayed as checkbox. The `checked` and `onChange` attributes should be taken from component's props"
+        ],
+        "2": [
+          "Now lets work on `App` component.",
+          "It should have the `selectedAgeGroup` state field with `undefined` as initial value.",
+          "",
+          "The `checked` prop of each `AgeCheckBox` should be `true` if current value of `selectedAgeGroup` is equal to its value.",
+          "This is how we going to mark selected value."
+        ],
+        "3": [
+          "Time to finish with the state update logic. Do it inside App component.",
+          "Each `AgeCheckBox` should have the `onChange` prop.",
+          "This method should set the label of the corresponding `AgeCheckBox` to the `selectedAgeGroup` state field."
+        ]
+      },
+      "final": [
+        "Great job!"
+      ]
+    },
+    "ru": {
+      "title": "Сколько тебе лет?",
+      "description": [
+        "Давай поработаем с несколькими чекбоксами"
+      ],
+      "stages": {
+        "1": [
+          "Давайте сначала закончим компонент `AgeCheckBox`.",
+          "Этот компонент должен возвращать элемент `div` с `label` и `input` внутри.",
+          "Свойство компонента `label` должна использоваться как внутренний текст элемента `label`.",
+          "Также давай использовать это свойство для связки элементы `label` и `input` (подсказка - атрибуты `htmlFor` и `id`).",
+          "",
+          "Поле ввода должно отображаться как чекбокс. Атрибуты `checked` и `onChange` должны быть взяты из свойств компонента."
+        ],
+        "2": [
+          "Теперь поработаем над компонентом `App`.",
+          "Он должен иметь поле состояния `selectedAgeGroup` с `undefined` в качестве начального значения.",
+          "",
+          "Свойство `checked` для каждого `AgeCheckBox` должно быть `true`, если текущее значение `selectedAgeGroup` равно его значению.",
+          "Так мы будем отмечать выбранное значение."
+        ],
+        "3": [
+          "Пора заканчивать с логикой обновления состояния. Сделайте это внутри компонента `App`.",
+          "Каждый `AgeCheckBox` должен иметь свойство `onChange`.",
+          "Этот метод должен установить метку соответствующего элемента `AgeCheckBox` в поле состояния `selectedAgeGroup`."
+        ]
+      },
+      "final": [
+        "Отличная работа!"
+      ]
+    }
+  }
+}

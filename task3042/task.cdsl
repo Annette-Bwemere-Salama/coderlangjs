@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 304,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Cancel render",
+      "description": [
+          "Let's check how `shouldComponentUpdate` method works.",
+          "The component should be rerendered on the `currentValue` state field change.",
+          "But rerender should take place only if `currentValue` is larger then 4",
+          "",
+          "Do not change `render` and `updateValue` methods of the `App` component."
+      ]
+    },
+    "ru": {
+      "title": "Отмена рендера",
+      "description": [
+        "Давайте проверим, как работает метод `shouldComponentUpdate`.",
+        "Компонент должен быть перерисован при изменении поля состояния `currentValue`.",
+        "Но повторный рендер должна происходить только в том случае, если `currentValue` больше 4",
+        "",
+        "Не изменяй методы `render` и `updateValue` компонента `App`."
+      ]
+    }
+  }
+}

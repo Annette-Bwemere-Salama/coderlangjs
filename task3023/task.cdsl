@@ -1,0 +1,41 @@
+{
+  "jsLectureId": 302,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Component without HTML",
+      "description": [
+        "Create the `SumResult` component inside `src/components` folder.",
+        "The function of this component should be called `SumResult` too.",
+        "",
+        "This component should receive two props: `paramA` and `paramB`.",
+        "And it should return just a node, without HTML. It should be the sum of its props.",
+        "",
+        "The `App.js` component should render the `SumResult` component with such `paramA` and `paramB`",
+        "so that their sum equals 600",
+        "",
+        "Use default export for `SumResult` component"
+      ]
+    },
+    "ru": {
+      "title": "Компонент без HTML",
+      "description": [
+        "Создай компонент `SumResult` внутри папки `src/components`.",
+        "Функция этого компонента тоже должна называться `SumResult`.",
+        "",
+        "Этот компонент должен получать два свойства: `paramA` и `paramB`.",
+        "И он должен возвращать только узел, без HTML. Это должна быть сумма его свойств.",
+        "",
+        "Компонент `App.js` должен отображать компонент `SumResult`, использованный с такими `paramA` и `paramB`",
+        "чтобы их сумма была равна 600",
+        "",
+        "Используй экспорт по умолчанию для компонента `SumResult`"
+      ]
+    }
+  }
+}

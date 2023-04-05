@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 307,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Loader",
+      "description": [
+        "At the `App` component we fetch user data.",
+        "While we are fetching data (`loading` state field is `true`) we need to render `Loading...` string inside `div`.",
+        "When data fetched - render user name.",
+        "If no data fetched - render `Some error during request` string inside `div`."
+      ]
+    },
+    "ru": {
+      "title": "Loader",
+      "description": [
+        "В компоненте `App` мы получаем данные пользователя.",
+        "Пока мы получаем данные (поле состояния `loading` имеет значение `true`), нам нужно отобразить строку `Loading...` внутри `div`.",
+        "Когда данные получены - отображаем имя пользователя.",
+        "Если данные не получены - надо вывести строку `Some error during request` внутри `div`."
+      ]
+    }
+  }
+}

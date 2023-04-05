@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { element } from './element';
+import { element, } from './element';
 
-ReactDOM.render(element('_blanc'), document.getElementById('root'));
+ReactDOM.render(element('_blank'), document.getElementById('root'));

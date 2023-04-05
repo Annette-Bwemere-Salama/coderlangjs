@@ -1,0 +1,35 @@
+{
+  "jsLectureId": 304,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Force unmount",
+      "description": [
+          "Let's finish the `TextUpdater` component.",
+          "After user clicks in `Unmount` button - `TextUpdater` component will be unmounted and mounted again.",
+          "When component is unmounted - the `saveData` component should be called.",
+          "The `text` state field should be passed to `saveData` as argument.",
+          "",
+          "Do not change any method and state inside the `App` or `TextUpdater` component.",
+          "Do not change `saveData` method."
+      ]
+    },
+    "ru": {
+      "title": "Принудительное размонтирование",
+      "description": [
+        "Давай доработаем компонент `TextUpdater`.",
+        "После того, как пользователь нажмет кнопку `Unmount`, компонент `TextUpdater` будет размонтирован и снова смонтирован.",
+        "Когда компонент размонтирован - должен быть вызван компонент `saveData`.",
+        "Поле состояния `text` должно быть передано в `saveData` в качестве аргумента.",
+        "",
+        "Не изменяй никаких методов и состояний внутри компонент `App` или `TextUpdater`.",
+        "Не изменяй метод `saveData`"
+      ]
+    }
+  }
+}

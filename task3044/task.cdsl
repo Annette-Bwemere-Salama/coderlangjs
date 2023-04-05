@@ -1,0 +1,37 @@
+{
+  "jsLectureId": 304,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Log snapshot",
+      "description": [
+          "Let's finish the `App` component.",
+          "After user types symbol inside textarea, `Symbol added` should be logged to console.",
+          "After user removes symbol inside textarea, `Symbol removed` should be logged to console.",
+          "",
+          "Compare should be done inside the `getSnapshotBeforeUpdate` method.",
+          "Logging should be done inside the `componentDidUpdate` method.",
+          "",
+          "Do not change any method and state inside the `App` component."
+      ]
+    },
+    "ru": {
+      "title": "Вывод снимка",
+      "description": [
+        "Давайте доработаем компонент `App`",
+        "После того, как пользователь введет символ внутри textarea, в консоль должно быть выведено сообщение `Symbol added`.",
+        "После того, как пользователь удалит символ внутри textarea, в консоли должно быть выведено сообщение `Symbol removed`.",
+        "",
+        "Сравнение должно выполняться внутри метода `getSnapshotBeforeUpdate`.",
+        "Логирование должно производиться внутри метода `componentDidUpdate`.",
+        "",
+        "Не изменяй никакие методы и состояние внутри компонента `App`."
+      ]
+    }
+  }
+}

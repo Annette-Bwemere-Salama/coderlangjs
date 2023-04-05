@@ -1,0 +1,33 @@
+{
+  "jsLectureId": 305,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Are you adult?",
+      "description": [
+        "There is an input and button in the `App` component. Don't change these components.",
+        "The entered age should be saved to state to corresponding field and populated to the input.",
+        "On button click we will validate age from state: ",
+        " - if age is null - log `Enter age` to console;",
+        " - if age is 16 and more - log `You have reached adulthood in Scotland` to console;",
+        " - if age is less then 16 - log `You are not an adult in Scotland` to console."
+      ]
+    },
+    "ru": {
+      "title": "Ты совершеннолетний?",
+      "description": [
+        "В компоненте` App` есть вход и кнопка. Не меняйте эти компоненты.",
+        "Введенный возраст должен быть сохранен для состояния в соответствующем поле и введен во вход.",
+        "При нажатии кнопки мы проверим возраст по состоянию:",
+        " - если возраст равен нулю - выведи `Enter age` в консоль;",
+        " - если возраст 16 и больше - выведи `You have reached adulthood in Scotland` в консоль;",
+        " - если возраст меньше 16 - выведи `You are not an adult in Scotland` в консоль."
+      ]
+    }
+  }
+}

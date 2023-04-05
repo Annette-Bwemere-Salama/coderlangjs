@@ -1,0 +1,61 @@
+{
+  "jsLectureId": 306,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Agree with terms",
+      "description": [
+        "Lets check how we can control other element with checkbox."
+      ],
+      "stages": {
+        "1": [
+          "The `App` component should return the `div` element",
+          "Following elements should be inside the `div` element: `label`, `input`, `button`.",
+          "`Agree with terms` should be the inner text of the `label`; `Continue` should be the inner text of the `button`.",
+          "`label` and `input` should be linked by the `agree-checkbox` `id`. Don't forget to add `htmlFor` attribute for `label`.",
+          "Also `input` should be displayed as checkbox.",
+          "",
+          "Also lets add `agreed` state field with `false` default value."
+        ],
+        "2": [
+          "Now time for logic.",
+          "The `agreed` state field should be toggled to opposite when checkbox is clicked.",
+          "Also `button` should be disabled when the `agreed` field is `false`."
+        ]
+      },
+      "final": [
+        "Great job!"
+      ]
+    },
+    "ru": {
+      "title": "Согласен с условиями",
+      "description": [
+        "Давайте проверим, как мы можем контролировать другой элемент с помощью чекбокса."
+      ],
+      "stages": {
+        "1": [
+          "Компонент `App` должен возвращать элемент `div`.",
+          "Внутри элемента` div` должны быть следующие элементы: `label`,` input`, `button`.",
+          "`Agree with terms` должен быть внутренним текстом `label`; `Continue` должен быть внутренним текстом `button`.",
+          "`label` и `input` должны быть связаны с помощью `agree-checkbox` `id`. Не забудьте добавить атрибут `htmlFor` для `label`.",
+          "Также `input` должен отображаться как чекбокс. ",
+          "",
+          "Также давай добавим поле состояния `agreed` со значением по умолчанию `false`."
+        ],
+        "2": [
+          "А теперь время для логики.",
+          "Поле состояния `agreed` должно переключаться на противоположное при щелчке чекбокса.",
+          "Также `button` должен быть отключен, если поле `agreed` имеет значение `false`."
+        ]
+      },
+      "final": [
+        "Отличная работа!"
+      ]
+    }
+  }
+}

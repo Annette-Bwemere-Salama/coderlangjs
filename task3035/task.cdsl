@@ -1,0 +1,37 @@
+{
+  "jsLectureId": 303,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Generator",
+      "description": [
+        "Lets create number generator.",
+        "For this create `RandomNumber.js` and export class component from there.",
+        "The component should be named `RandomNumber` and return `div` wrapper.",
+        "Inside wrapper `div` it should render the `randomNumber` state prop inside `div` and the `Generate` button.",
+        "On `Generate` button click the `randomNumber` state prop should be updated with `Math.random` call result",
+        "The `RandomNumber` should be rendered inside `App` component, which should be the class component.",
+        "",
+        "Use default export for `RandomNumber` component"
+      ]
+    },
+    "ru": {
+      "title": "Генератор",
+      "description": [
+        "Давайте создадим генератор чисел.",
+        "Для этого создай `RandomNumber.js` и экспортируйте оттуда классовый компонент.",
+        "Компонент должен называться `RandomNumber` и возвращать оболочку `div`.",
+        "Внутри оболочки `div` он должен отображать свойство состояния `randomNumber` внутри `div` и кнопку `Generate`.",
+        "При нажатии на кнопку `Generate` свойство состояния `randomNumber` должно быть обновлено результатом вызова `Math.random`.",
+        "`RandomNumber` должен отображаться внутри компонента `App`, который должен быть классовым компонентом",
+        "",
+        "Используй экспорт по умолчанию для компонента `RandomNumber`"
+      ]
+    }
+  }
+}

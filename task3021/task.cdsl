@@ -1,0 +1,30 @@
+{
+  "jsLectureId": 302,
+  "reward": 10,
+  "tutors": [
+    "Sigma",
+    "Technic"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Travel",
+      "description": [
+        "The `App.js` component looks ready.",
+        "But when launching the application, the screen should display `I would like to visit Rome`.",
+        "Improve the application to display the correct message.",
+        "Do not change `App.js`, work only with `index.js`."
+      ]
+    },
+    "ru": {
+      "title": "Путешествие",
+      "description": [
+        "Компонент `App.js` выглядит готовым.",
+        "Но при запуске приложения на экране должно появится `I would like to visit Rome`.",
+        "Доработай приложение, что бы выводилось правильное сообщение.",
+        "Не изменяй `App.js`, работай только с `index.js`."
+      ]
+    }
+  }
+}

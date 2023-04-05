@@ -1,0 +1,59 @@
+{
+  "jsLectureId": 305,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Login form",
+      "description": [
+        "Lets finish login form."
+      ],
+      "stages": {
+        "1": [
+          "The `Email` and `Password` inputs should take their values from the corresponding fields of state: `email` and `password`.",
+          "Both of these fields should ne empty strings. Don't forget to save changed values to state.",
+          "",
+          "On login we will disable these fields. For this we will use the `formSubmitted` field of the state.",
+          "Initially it should be `false`."
+        ],
+        "2": [
+          "Now lets add some login logic. On button click we will submit our form.",
+          "If there is no entered `email` or `password` - log the `Enter credentials` string to console.",
+          "If both fields are entered - log the `Welcome` string to console.",
+          "Don't forget to disable both fields with `formSubmitted` field of state (only on successful login)"
+        ]
+      },
+      "final": [
+        "Great job!"
+      ]
+    },
+    "ru": {
+      "title": "Форма логина",
+      "description": [
+        "Давай закончим форму логина"
+      ],
+      "stages": {
+        "1": [
+          "Поля ввода `Email` и `Password` должны брать свои значения из соответствующих полей состояния: `email` и `password`.",
+          "Оба эти поля должны изначально содержать пустые строки. Не забудьте сохранить измененные значения в состоянии.",
+          "",
+          "При входе в систему эти поля должны стать отключенными. Для этого мы будем использовать поле состояния `formSubmitted`.",
+          "Изначально оно должно быть `false`."
+        ],
+        "2": [
+          "Теперь давайте добавим логику входа в систему. При нажатии кнопки мы отправим нашу форму.",
+          "Если нет введенного адреса электронной почты или пароля - выведи строку `Enter credentials` в консоль.",
+          "Если введены оба поля - выведи в консоль строку `Welcome`.",
+          "Не забудьте отключить оба поля ввода с помощью свойства состояния `formSubmitted` (только при успешном входе в систему)."
+        ]
+      },
+      "final": [
+        "Отличная работа"
+      ]
+    }
+  }
+}

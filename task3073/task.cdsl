@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 307,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Access denied",
+      "description": [
+        "Please don't change the logic of handlers inside the `App` component",
+        "",
+        "We should show the `h3` element after the `button` element.",
+        "This heading should be shown only after `Check` button click if password was entered.",
+        "If password is `super_strong_password` show `access granted` text inside `h3`, otherwise `access denied`."
+      ]
+    },
+    "ru": {
+      "title": "В доступе отказано",
+      "description": [
+        "Пожалуйста, не меняй логику обработчиков внутри компонента` App`",
+        "",
+        "Мы должны показать элемент `h3` после элемента `button`.",
+        "Этот заголовок должен отображаться только после нажатия кнопки `Check`, если пароль был введен.",
+        "Если пароль - `super_strong_password`, покажите текст `access granted` внутри `h3`, в противном случае `access denied`."
+      ]
+    }
+  }
+}

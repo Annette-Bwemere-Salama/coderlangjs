@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 303,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Finish the component",
+      "description": [
+        "You need to finish the `User` component.",
+        "Don't change the `App` component and render method of the `User` component.",
+        "The `userName` state property should be taken from the `User` component props."
+      ]
+    },
+    "ru": {
+      "title": "Закончи компонент",
+      "description": [
+        "Вам нужно доработать компонент `User`.",
+        "Не меняй компонент `App` и метод рендеринга компонента `User`.",
+        "Свойство состояния `userName` должно быть взято из свойств компонента `User`."
+      ]
+    }
+  }
+}

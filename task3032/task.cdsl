@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 303,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Working with state",
+      "description": [
+        "You should finish the `App` component.",
+        "It should render `This is the {{component name}} component` inside the `h1` tag.",
+        "`{{component name}}` - should be replaced with `componentName` property of the state.",
+        "`App` should be the value of the `componentName` property."
+      ]
+    },
+    "ru": {
+      "title": "Работаем с состоянием",
+      "description": [
+        "Ты должен закончить компонент `App`.",
+        "Он должен отобразить строку `This is the {{component name}} component` внутри тега `h1`.",
+        "`{{component name}}` - следует заменить свойством состояния `componentName`.",
+        "`App` должно быть значением свойства `componentName`."
+      ]
+    }
+  }
+}

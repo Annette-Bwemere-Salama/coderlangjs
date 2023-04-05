@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 304,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Getting state",
+      "description": [
+        "Finish the `NameRenderer` component.",
+        "It should take `firstName` and `lastName` props, join them with space between and save to `name` state field.",
+        "",
+        "Do not change the `App` component."
+      ]
+    },
+    "ru": {
+      "title": "Получаем состояние",
+      "description": [
+        "Заверши компонент `NameRenderer`.",
+        "Он должен принимать свойства `firstName` и `lastName`, соединять их с пробелом между ними и сохранять в поле состояния `name`.",
+        "",
+        "Не изменяйте компонент `Приложение`."
+      ]
+    }
+  }
+}

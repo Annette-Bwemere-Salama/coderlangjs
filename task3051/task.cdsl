@@ -1,0 +1,25 @@
+{
+  "jsLectureId": 305,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Change handler",
+      "description": [
+        "Lets add the change handler for input inside `App` component.",
+        "This handle should log the entered value to console."
+      ]
+    },
+    "ru": {
+      "title": "Обработчик изменения",
+      "description": [
+        "Давай добавим полю ввода компонента `App` обработчик изменения.",
+        "Он должен выводить в консоль введенное значение."
+      ]
+    }
+  }
+}

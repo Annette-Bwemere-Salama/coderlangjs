@@ -1,0 +1,33 @@
+{
+  "jsLectureId": 307,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Accordion",
+      "description": [
+        "Today we will write the logic for the Accordion component.",
+        "",
+        "Inside `App` component the `#content` should be shown after clicking on `#heading`.",
+        "If `#content` is shown, hide it after clicking on `#heading` again.",
+        "Use `showContent` state field for this.",
+        "`#content` should be removed completely, without adding the properties `hidden` or `invisible`"
+      ]
+    },
+    "ru": {
+      "title": "Неконтролируемое поле ввода",
+      "description": [
+        "Сегодня мы напишем логику для компонента Accordion.",
+        "",
+        "Внутри компонента `App` после нажатия на `#heading` должен отображаться `#content`.",
+        "Если `#content` отображается, скрой его после повторного щелчка по `#heading`.",
+        "Используйте для этого поле состояния `showContent`.",
+        "`#content` должен быть скрыт полностью, без добавления свойств `hidden` или `invisible`"
+      ]
+    }
+  }
+}
