@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 352,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Fix the error",
+      "description": [
+        "Two blocks - green and red - have sizes indicated.",
+        "However, these two boxes are completely hidden. An error is made - the size of the parent component is not specified.",
+        "Fix the error. The parent component should fill the entire screen."
+      ]
+    },
+    "ru": {
+      "title": "Исправь ошибку",
+      "description": [
+        "Двум блокам - зеленого и красного цвета - указаны размеры.",
+        "Однако эти два блока полностью скрыты. Допущена ошибка - не указан размер родительского компонента.",
+        "Исправь ошибку. Родительский компонент должен занимать весь экран."
+      ]
+    }
+  }
+}
