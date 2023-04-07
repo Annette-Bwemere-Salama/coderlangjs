@@ -29,6 +29,22 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  month: {},
-  row: {},
+  month: {
+    width: 5,
+    marginVertical: 10,
+    paddingHorizontal: 10,
+    fontSize: 10,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    display: 'flex',
+    backgroundColor: 'rgb(255, 198, 0)',
+    margin: 5,
+    padding: 10,
+    flex: 1
+  },
+  row: {
+    display: 'flex',
+    flexDirection: 'row',
+   
+  },
 });
