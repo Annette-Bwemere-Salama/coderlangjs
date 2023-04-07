@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 308,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Technologies List",
+      "description": [
+        "At the `App` component we should return `section` tag.",
+        "The first child item of section should be the `h2` heading with `Frontend frameworks and libraries` inner text",
+        "Then lets render the `technologies` list taken from the state.",
+        "Use `div` tag for each item. Inner text and key should be equal to corresponding array item"
+      ]
+    },
+    "ru": {
+      "title": "Список технологий",
+      "description": [
+        "В компоненте `App` мы должны вернуть тег `section`.",
+        "Первым дочерним элементом раздела должен быть заголовок `h2` с внутренним текстом `Frontend frameworks and libraries`.",
+        "Затем рендерим список `technologies`, взятый из состояния.",
+        "Используй тег `div` для каждого элемента. Внутренний текст и ключ должны быть равны соответствующему элементу массива."
+      ]
+    }
+  }
+}

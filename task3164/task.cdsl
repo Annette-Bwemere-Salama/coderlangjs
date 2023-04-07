@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 316,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Pagination",
+      "description": [
+        "Check `App` component - there we render single component under `/page/:pageNumber`",
+        "Now let's check `Paginator` component. There we have button witch should take user to the next page on click.",
+        "For example, if user on `/page/1` and clicks button - user should get to `/page/2`.",
+        "Please change only `onClick` method of the `Paginator` component."
+      ]
+    },
+    "ru": {
+      "title": "Пагинация",
+      "description": [
+        "Проверьте компонент `App` - там мы отображаем один компонент в `/page/:pageNumber`",
+        "Теперь давайте проверим компонент `Paginator`. Там у нас есть кнопка, которая должна переводить пользователя на следующую страницу по клику.",
+        "Например, если пользователь находится на `/page/1` и нажимает кнопку, пользователь должен попасть на `/page/2`.",
+        "Пожалуйста, измени только метод `onClick` компонента `Paginator`"
+      ]
+    }
+  }
+}

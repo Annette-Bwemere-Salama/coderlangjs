@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 315,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Where is it?",
+      "description": [
+        "Only 404 page left to add for out application.",
+        "It should render `Not found` string.",
+        "Don't change other routes"
+      ]
+    },
+    "ru": {
+      "title": "Где же?",
+      "description": [
+        "Осталось добавить только 404 страницу для нашего приложения.",
+        "На ней должна отображаться строка `Not found`.",
+        "Не меняй другие роуты."
+      ]
+    }
+  }
+}

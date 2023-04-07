@@ -1,0 +1,33 @@
+{
+  "jsLectureId": 308,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "I love pizza",
+      "description": [
+        "`App` component should render the `main` element.",
+        "Inside `main` element we will render `pizza` list.",
+        "For each pizza item we will render `h2` element.",
+        "The text inside `h2` will be taken from the `name` field of each `pizzas` element.",
+        "After `h2` you should add `div` element with `ingredients` field string (joined it into string with comma separator).",
+        "Use `name` field for key when need."
+      ]
+    },
+    "ru": {
+      "title": "Я люблю пиццу",
+      "description": [
+        "Компонент `App` должен отображать элемент `main`.",
+        "Внутри элемента `main` мы отобразим список `pizzas`.",
+        "Для каждого элемента пиццы мы будем отображать элемент `h2`.",
+        "Текст внутри `h2` возьмем из поля `name` каждого элемента `pizzas`.",
+        "После` h2` вы должны добавить элемент `div` со строкой поля `ingredients` (объедини в строку через запятую).",
+        "При необходимости используйте поле` name` для ключа "
+      ]
+    }
+  }
+}

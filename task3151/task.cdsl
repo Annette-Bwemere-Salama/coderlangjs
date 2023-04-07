@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 315,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Hero route",
+      "description": [
+        "Add new route for router inside the `App` component.",
+        "It should render `h2` heading with `Hero page` text for `/hero` path.",
+        "",
+        "Do not change anything else inside `App` component."
+      ]
+    },
+    "ru": {
+      "title": "Путь героя",
+      "description": [
+        "Добавь новый роут для роутера внутри компонента `App`.",
+        "Он должен рендерить заголовок `h2` с текстом `Hero page` для пути `/hero`.",
+        "",
+        "Ничего больше в компоненте `App` не изменяй."
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 309,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Typing component #2",
+      "description": [
+        "Check the code of the `App` and `User` components.",
+        "After that add props typing for the `User` component.",
+        "",
+        "Consider some props are required and some not.",
+        "Please run tests only you feel all props are typed correctly."
+      ]
+    },
+    "ru": {
+      "title": "Типизируем компонент #2",
+      "description": [
+        "Просмотри код компонентов `App` и `User`.",
+        "После этого добавь типизацию для свойств компонента `User`.",
+        "",
+        "Учитывай, что некоторые свойства необходимы, а некоторые - нет.",
+        "Пожалуйста, запускай тесты, только если считаешь, что все свойства типизированы верно."
+      ]
+    }
+  }
+}

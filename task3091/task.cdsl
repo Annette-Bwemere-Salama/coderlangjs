@@ -1,0 +1,25 @@
+{
+  "jsLectureId": 309,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Children",
+      "description": [
+        "Finish the `HeadingWithRules` component.",
+        "It should render correctly for use in the `App` component."
+      ]
+    },
+    "ru": {
+      "title": "Children",
+      "description": [
+        "Доработай компонент `HeadingWithRules`.",
+        "Он должен правильно рендериться относительно использования в компоненте `App`."
+      ]
+    }
+  }
+}

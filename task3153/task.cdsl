@@ -1,0 +1,37 @@
+{
+  "jsLectureId": 315,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Take me to route",
+      "description": [
+        "There are two components in the `routes` folder: `Main` and `About`.",
+        "For each components add link the will take user to another route.",
+        "",
+        "For `Main` route the link should be `Read about react-router-dom` and it should take user to `About` route.",
+        "",
+        "For `About` route the link should be `Back to main` and it should take user to `Main` route.",
+        "",
+        "Do not change anything else inside `App`, `Main` or `About` component."
+      ]
+    },
+    "ru": {
+      "title": "Отведи меня на роут",
+      "description": [
+        "В папке `routes` есть два компонента: `Main` и `About`.",
+        "Для каждого компонента добавьте ссылку, которая приведет пользователя к другому роуту.",
+        "",
+        "Для роута `Main` ссылка должна быть `Read about react-router-dom`, и она должна вести пользователя на роут `About`.",
+        "",
+        "Для роута `About` ссылка должна быть `Back to main`, и она должна вести пользователя на роут `Main`.",
+        "",
+        "Ничего не меняйте внутри компонента `App`, `Main` или `About`."
+      ]
+    }
+  }
+}

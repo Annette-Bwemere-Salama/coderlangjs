@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 316,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Current location",
+      "description": [
+        "Check `MyLocation` component - it renders some `pathname` and `search` values.",
+        "But they should be taken dynamically from the route props.",
+        "Please do this and dont change render result of the `App` and `MyLocation` components."
+      ]
+    },
+    "ru": {
+      "title": "Текущее положение",
+      "description": [
+        "Проверь компонент `MyLocation` - он отображает некоторые значения `pathname` и `search`.",
+        "Но они должны браться динамически из свойств маршрута.",
+        "Пожалуйста, сделай это и не изменяй результат рендеринга компонентов `App` и `MyLocation`."
+      ]
+    }
+  }
+}

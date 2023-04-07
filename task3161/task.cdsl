@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 316,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Ticket box",
+      "description": [
+        "By clicking on the link on the main route user is taken to use ticket page.",
+        "Ticket `id` is passed as param of the url.",
+        "Update `Ticket` component so the `{ticketId}` part of the render is replaced with passed in the url `id`.",
+        "For example, for `id` equal 3 we should see `Ticket id is 3` rendered for the `/ticker/3` path.",
+        "Do not change anything except `Ticket` component."
+      ]
+    },
+    "ru": {
+      "title": "Ticket box",
+      "description": [
+        "При нажатии на ссылку на основном роуте пользователь попадает на страницу билета (ticket).",
+        "`id` билета передается как параметр URL-адреса.",
+        "Обнови компонент `Ticket`, чтобы часть `{ticketId}` рендеринга была заменена переданным в URL-адресе `id`",
+        "Например, для `id`, равного 3, мы должны увидеть, что `Ticket id is 3` отображается для пути `/ticker/3`.",
+        "Ничего не меняй, кроме компонента `Ticket`."
+      ]
+    }
+  }
+}

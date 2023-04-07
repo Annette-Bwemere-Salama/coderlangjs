@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Press Start 2P", cursive;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+hr {
+    width: 95%;
+    border: 0;
+    border-top: 2px dashed #dfa697;
+}
+
+.lottery-ticket {
+    margin: 20px auto;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background: #fff;
+}
+
+.lottery-inner {
+    background: #ebb3a4;
+}
+
+.lotto-content {
+    padding: 10px;
+}
+
+.lotto-title {
+    padding: 10px;
+    background: #ebb3a4;
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.lotto-title span {
+    padding: 10px;
+    text-align: right;
+    width: 50%;
+    background: #fff;
+    color: #ebb3a4;
+}
+
+.lotto-title i {
+    padding: 10px;
+    text-align: left;
+    width: 50%;
+    color: #fff;
+}
+
+.ticket-number {
+    margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 316,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "I am from ...",
+      "description": [
+        "Check `MyPlace` component - url params are used here.",
+        "Now check `App` component.",
+        "`MyPlace` component is rendered for `/i-am-from` route, but no params there.",
+        "Let's fix this. The order of params is: `country`, `city`, `street`.",
+        "Do not change anything except path."
+      ]
+    },
+    "ru": {
+      "title": "I am from ...",
+      "description": [
+        "Проверь компонент `MyPlace` - здесь используются параметры URL.",
+        "Теперь проверь компонент `App`.",
+        "Компонент `MyPlace` отображается для маршрута `/i-am-from`, но там нет параметров.",
+        "Давай это исправим. Порядок параметров такой: `country`, `city`, `street`.",
+        "Ничего не меняй, кроме пути."
+      ]
+    }
+  }
+}

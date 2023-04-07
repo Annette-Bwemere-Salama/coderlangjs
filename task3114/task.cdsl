@@ -1,0 +1,41 @@
+{
+  "jsLectureId": 311,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Fetching data with hooks",
+      "description": [
+        "You should finish the `App` component.",
+        "",
+        "On component mount the lottery ticket number should be fetched.",
+        "For fetching please use the `getWinnerNumber` method (do not change it).",
+        "The resolved result (string) of the `getWinnerNumber` method call should be saved to state.",
+        "",
+        "To create state use `useState` method.",
+        "The initial state value should be an empty string.",
+        "",
+        "After you can get the value and save it to state - render it inside the `.ticket-number` element."
+      ]
+    },
+    "ru": {
+      "title": "Получение данных с помощью хуков",
+      "description": [
+        "Ты должен закончить компонент `App`.",
+        "",
+        "При монтировании компонента должен быть получен номер лотерейного билета.",
+        "Для извлечения используйте метод `getWinnerNumber` (не изменяй его).",
+        "Разрешенный результат (строка) вызова метода `getWinnerNumber` должен быть сохранен в состояние.",
+        "",
+        "Для создания состояния используйте метод `useState`.",
+        "Начальное значение состояния должно быть пустой строкой.",
+        "",
+        "После того, как ты сможешь получить значение и сохранить его в состояние, отобрази его внутри элемента `.ticket-number`."
+      ]
+    }
+  }
+}

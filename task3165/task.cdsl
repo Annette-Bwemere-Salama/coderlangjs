@@ -1,0 +1,57 @@
+{
+  "jsLectureId": 316,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Dynamic page",
+      "description": [
+        "Let's Practice Creating Dynamic Pages"
+      ],
+      "stages": {
+        "1": [
+          "First, let's modify the `MainPage` component. The render result cannot be changed.",
+          "When clicking on the `h4` heading, use the `history.push` method to navigate to the `/dynamic` page.",
+          "You also need to pass in the `pageData` state. It must equal the element in the `map` loop.",
+          "Do not change anything in the `App` component, the markup of the `MainPage` component, and in the `dynamicPages` array."
+        ],
+        "2": [
+          "In the `MainPage` component, we have already added a transition to the `/dynamic` page.",
+          "Now in the `DynamicPage` component, the `pageHeading` and `pageDescription` variables must be obtained from the page state.",
+          "We passed these fields to the `dynamicPages` state field.",
+          "The state itself is taken from the `location` property."
+        ]
+      },
+      "final": [
+        "Super! You coped with the task."
+      ]
+    },
+    "ru": {
+      "title": "Динамическая страница",
+      "description": [
+        "Потренируемся с созданием динамических страниц"
+      ],
+      "stages": {
+        "1": [
+          "Для начала доработаем компонент `MainPage`. Результат рендера изменять нельяза.",
+          "При нажатии на заголовок `h4` нужно с помощью метода `history.push` перехожить на страницу `/dynamic`.",
+          "Также нужно передавать состояние `pageData`. Оно должно равняться элемента в цикле `map`.",
+          "Ничего не изменяй в компоненте `App`, разметку компонента `MainPage`, и в массиве `dynamicPages`."
+        ],
+        "2": [
+          "В компоненте `MainPage` мы уже добавили переход на страницу `/dynamic`.",
+          "Теперь в компоненте `DynamicPage` переменные `pageHeading` и `pageDescription` нужно получать из состояния страницы.",
+          "Эти поля мы передали в поле `dynamicPages` состояния.",
+          "Само состояние бери из свойства `location`."
+        ]
+      },
+      "final": [
+        "Супер! Ты справился с поставленной задачей."
+      ]
+    }
+  }
+}

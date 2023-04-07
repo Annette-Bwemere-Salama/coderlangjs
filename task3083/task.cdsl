@@ -1,0 +1,25 @@
+{
+  "jsLectureId": 308,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Fix list",
+      "description": [
+        "Please, fix the `MetalsList` component ASAP.",
+        "Keep `MetalsList`s HTML structure as it is (without using extra HTML elements)."
+      ]
+    },
+    "ru": {
+      "title": "Список пользователей",
+      "description": [
+        "Пожалуйста, исправьте компонент `MetalsList` как можно скорее.",
+        "Сохрани HTML-структуру `MetalsList` такой, как она есть (без использования дополнительных HTML элементов)."
+      ]
+    }
+  }
+}

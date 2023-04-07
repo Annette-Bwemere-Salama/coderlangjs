@@ -1,0 +1,33 @@
+{
+  "jsLectureId": 311,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Mount and unmount with hooks",
+      "description": [
+        "Let's check how action on component's mount/unmount can be fired with hooks.",
+        "",
+        "When the `AccordionBody` component is mounted we should see the `AccordionBody is shown` string in console.",
+        "When the `AccordionBody` component is unmounted we should see the `AccordionBody is hidden` string in console.",
+        "",
+        "Don't change the `App` component, the render result of the `AccordionBody` component"
+      ]
+    },
+    "ru": {
+      "title": "Монтирование и размонтирование с помощью хуков",
+      "description": [
+        "Давай проверим, как действие по монтированию/размонтированию компонента может быть запущено с помощью хуков.",
+        "",
+        "Когда компонент `AccordionBody` смонтирован, мы должны увидеть строку `AccordionBody is shown` в консоли.",
+        "Когда компонент `AccordionBody` размонтирован, мы должны увидеть в консоли строку `AccordionBody is hidden`.",
+        "",
+        "Не изменяй компонент `App`, результат рендеринга компонента `AccordionBody`."
+      ]
+    }
+  }
+}

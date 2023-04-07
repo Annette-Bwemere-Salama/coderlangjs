@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 315,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Urgent redirect",
+      "description": [
+        "Your colleague made a mistake.",
+        "The page for path `/old-profile-page` is no longer available.",
+        "And the page for path `/new-profile-page` is not ready yet.",
+        "We need to get this fixed immediately.",
+        "For each of these paths, set a redirect to the `/` path."
+      ]
+    },
+    "ru": {
+      "title": "Срочное перенаправление",
+      "description": [
+        "Твой коллега допустил ошибку.",
+        "Страница для пути `/old-profile-page` уже недоступна.",
+        "А страница для пути `/new-profile-page` еще не готова.",
+        "Надо срочно это починить.",
+        "Для каждого из этих путей настрой перенаправление на путь `/`."
+      ]
+    }
+  }
+}

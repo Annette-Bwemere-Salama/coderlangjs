@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 309,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Typing component #1",
+      "description": [
+        "Check the code of the `App` and `FormElement` components.",
+        "After that add props typing for the `FormElement` component.",
+        "",
+        "Consider some props are required and some not.",
+        "Submit the task only you're sure that all props have proper types."
+      ]
+    },
+    "ru": {
+      "title": "Типизируем компонент #1",
+      "description": [
+        "Просмотри код компонентов `App` и `FormElement`.",
+        "После этого добавь типизацию для свойств компонента `FormElement`.",
+        "",
+        "Учитывай, что некоторые свойства необходимы, а некоторые - нет.",
+        "Пожалуйста, отправляй задачу на проверку, только если считаешь, что все свойства типизированы верно."
+      ]
+    }
+  }
+}

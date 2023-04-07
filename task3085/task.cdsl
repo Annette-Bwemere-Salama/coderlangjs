@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 308,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Add handler",
+      "description": [
+        "Inside `App` component we render the notes list.",
+        "Add click handler for each note item.",
+        "It should log current note to console."
+      ]
+    },
+    "ru": {
+      "title": "Добавь обработчик",
+      "description": [
+        "Внутри компонента `App` мы отображаем список нот.",
+        "Добавить обработчик кликов для каждого элемента нот.",
+        "Он должен выводить текущую ноту в консоль."
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+
+{
+  "jsLectureId": 350,
+  "reward": 10,
+  "entryPoint": "my_app",
+  "tutors": [
+    "Sigma",
+    "Technic"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "The first expo app",
+      "description": [
+        "Build Your First React Native App with Expo.",
+        "The application must be named `my_app`.",
+        "",
+        "Import `React` to `App.js` to pass the task.",
+        "Do not change anything else in the files of the created application - just send it for review."
+      ]
+    },
+    "ru": {
+      "title": "Первое приложение на expo",
+      "description": [
+        "Создай свое первое React Native приложение с помощью Expo.",
+        "Приложение должно называться `my_app`.",
+        "",
+        "Импортируй `React` в `App.js`, чтобы сдать задачу.",
+        "Ничего больше не изменяй в файлах созданного приложения - просто отправь его на проверку."
+      ]
+    }
+  }
+}

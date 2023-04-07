@@ -1,0 +1,69 @@
+{
+  "jsLectureId": 311,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Hooks state update",
+      "description": [
+        "Let's train hot to update state, created with `useState`"
+      ],
+      "stages": {
+        "1": [
+          "Firstly let's add state for both `email` and `password` inputs.",
+          "Use `useState` one time - the initial value should be an object with fields `email` and `password`.",
+          "Both of state fields should be empty strings initially.",
+          "",
+          "Each input should take its value from the corresponding state field."
+        ],
+        "2": [
+          "Add `onChange` handler for each input.",
+          "The change handler of each input should change only corresponding state field.",
+          "",
+          "Also we need to finish `handleSubmit` method.",
+          "It should still be called on `login` button click.",
+          "Full state object should be logged to console.",
+          "After that clear both fields of the state.",
+          "",
+          "Don't remove `preventDefault` call."
+        ]
+      },
+      "final": [
+        "Great job!"
+      ]
+    },
+    "ru": {
+      "title": "Обновление состояния хуков",
+      "description": [
+        "Давай потренируемся обновлять состояние, созданное с помощью `useState`"
+      ],
+      "stages": {
+        "1": [
+          "Во-первых, давай добавим состояние для ввода `email` и `password`.",
+          "Используй `useState` один раз - начальным значением должен быть объект с полями `email` и `password`.",
+          "Оба поля состояния изначально должны быть пустыми строками.",
+          "",
+          "Каждое поле ввода должно брать свое значение из соответствующего поля состояния."
+        ],
+        "2": [
+          "Добавь обработчик `onChange` для каждого поля ввода.",
+          "Обработчик каждого поля ввода должен изменять только соответствующее поле состояния.",
+          "",
+          "Также нам нужно закончить метод `handleSubmit`.",
+          "Он все еще должен вызываться при нажатии кнопки `login`.",
+          "Объект состояния должен выводится в консоли.",
+          "После этого очисти оба поля состояния.",
+          "",
+          "Не удаляй вызов `preventDefault`."
+        ]
+      },
+      "final": [
+        "Отличная работа!"
+      ]
+    }
+  }
+}

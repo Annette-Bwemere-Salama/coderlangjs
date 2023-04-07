@@ -1,0 +1,37 @@
+{
+  "jsLectureId": 309,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Label component",
+      "description": [
+        "First you should finish `Label` component.",
+        "We will use this component to render text. Text will be passed as child.",
+        "If there is a `title` prop for Label component - render text inside `h2` tag.",
+        "Otherwise text should be rendered inside the `div` element",
+        "",
+        "Then we will use this component twice inside `App` component.",
+        "First `Label` inside `main` element should render the `Anyone Can be a Software Engineer` title.",
+        "Second one - simple `You just need to work hard` text."
+      ]
+    },
+    "ru": {
+      "title": "Компонент Label",
+      "description": [
+        "Сначала нужно закончить компонент `Label`.",
+        "Мы будем использовать этот компонент для визуализации текста. Текст будет передан как дочерний элемент.",
+        "Если есть свойство `title` для компонента `Label` - отображать текст будем внутри тега `h2`.",
+        "В противном случае текст должен отображаться внутри элемента `div`.",
+        "",
+        "Затем мы будем использовать этот компонент дважды внутри компонента `App`.",
+        "Первый `Label` внутри элемента `main` должен отображать заголовок `Anyone Can be a Software Engineer`.",
+        "Второй - простой текст `You just need to work hard`."
+      ]
+    }
+  }
+}

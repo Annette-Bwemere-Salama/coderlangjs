@@ -1,0 +1,62 @@
+{
+  "jsLectureId": 308,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Users List",
+      "description": [
+        "Now will train to render the list of React components"
+      ],
+      "stages": {
+        "1": [
+          "We will start with finishing the `User` component.",
+          "It should return `section` with three child element.",
+          "First one will be `h2` with `name` prop as inner text.",
+          "Second one will be `div` with `Email: {props.email}` inner text.",
+          "Third one will be `div` with `Phone: {props.phone}` inner text."
+        ],
+        "2": [
+          "Now inside `App` component we should render the `state.users` list.",
+          "Render list inside `main` element.",
+          "For each element of the array use `User` component when mapping.",
+          "You should use `email` field as the `key` prop.",
+          "Don't forget to pass `email`, `phone` and `name` props to each `User` component."
+        ]
+      },
+      "final": [
+        "Great job!"
+      ]
+    },
+    "ru": {
+      "title": "Список пользователей",
+      "description": [
+        "Сейчас научимся рендерить список компонентов React"
+      ],
+      "stages": {
+        "1": [
+          "Начнем с доработки компонента `User`.",
+          "Он должен вернуть `section` с тремя дочерними элементами.",
+          "Первым будет `h2` с опорой `name` в качестве внутреннего текста.",
+          "Вторым будет `div` с внутренним текстом `Email: {props.email}`.",
+          "Третьим будет `div` с внутренним текстом `Phone: {props.phone}`."
+        ],
+        "2": [
+          "Теперь внутри компонента `App` мы должны отобразить список `state.users`.",
+          "Список рендериться внутри элемента `main`.",
+          "Для каждого элемента массива при отображении используйте компонент `User`.",
+          "Используй поле `email` в качестве  свойства `key`.",
+          "Не забудь передать свойства `email`, `phone` и `name` каждому компоненту `User`.",
+          "Не изменяй `state.users`"
+        ]
+      },
+      "final": [
+        "Отличная работа!"
+      ]
+    }
+  }
+}

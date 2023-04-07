@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+.counter {
+    background-color: #22c4c4;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    grid-template-rows: repeat(2, auto);
+    align-content: center;
+    font-family: monospace;
+}
+
+.buttons-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.current-value {
+    font-size: 30px;
+    margin: 0 40px;
+}
+
+.plus,
+.minus {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 4px 12px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.plus {
+    background-color: #f6c301;
+}
+
+.minus {
+    color: white;
+    background-color: #ac0e11;
+}

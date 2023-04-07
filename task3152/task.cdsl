@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 315,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "Hero route",
+      "description": [
+        "For any path the `Main page` route renders always.",
+        "Please fix it so right route is rendered for corresponding path.",
+        "",
+        "Do not change anything else inside `App` component except routes."
+      ]
+    },
+    "ru": {
+      "title": "Путь героя",
+      "description": [
+        "Для любого пути всегда отображается роут `Main page``.",
+        "Пожалуйста, исправь это, чтобы правильный роут отображался для соответствующего пути.",
+        "",
+        "Ничего не меняй внутри компонента `App`, кроме маршрутов."
+      ]
+    }
+  }
+}

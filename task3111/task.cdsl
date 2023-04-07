@@ -1,0 +1,39 @@
+{
+  "jsLectureId": 311,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "react",
+  "i18n": {
+    "en": {
+      "title": "useState first try",
+      "description": [
+        "Let's add logic for the `App` component",
+        "",
+        "Add the counter current value state.",
+        "Display it inside div.current-value just after the `Current value: ` string",
+        "",
+        "The logic is pretty simple - `Minus 1` button click should reduce current value.",
+        "`Plus 1` button click should increase current value.",
+        "",
+        "The `Current value: ` string should show new value after any button click."
+      ]
+    },
+    "ru": {
+      "title": "Пробуем useState впервые",
+      "description": [
+        "Добавим логику для компонента `App`",
+        "",
+        "Добавить состояние текущего значения счетчика.",
+        "Отобразить его внутри `div.current-value` сразу после строки `Current value: `.",
+        "",
+        "Логика довольно проста - нажатие кнопки `Minus 1` должно уменьшать текущее значение",
+        "Нажатие кнопки `Plus 1` должно увеличивать текущее значение.",
+        "",
+        "Строка `Current value: ` должна показывать новое значение после любого нажатия кнопки."
+      ]
+    }
+  }
+}

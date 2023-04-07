@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+body {
+    height: 100vh;
+    font-family: Comfortaa, monospace;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.accordion {
+    width: 500px;
+    margin: 100px auto;
+    background-color: #fff;
+}
+
+.accordion-header {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.open-close {
+    font-size: 10px;
+    opacity: 0.4;
+}
+
+.accordion-body {
+    padding: 30px 20px;
+    border-top: 1px solid #4b6cb7;
+}
