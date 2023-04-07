@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 351,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Flex in React Native",
+      "description": [
+        "Let's practice some styling in React Native.",
+        "Elements within each `styles.row` element must be placed on a line, not a column.",
+        "All calendar cells must be the same size with 5px margins and 10px padding.",
+        "The font size in the cell should be 10px, the bold intensity, and the text centered.",
+        "Let the background color be rgb (255, 198, 0)."
+      ]
+    },
+    "ru": {
+      "title": "Flex в React Native",
+      "description": [
+        "Потренируемся немного со стилями в React Native.",
+        "Элементы внутри каждого элемента `styles.row` должны располагаться не в колонку, а в строчку.",
+        "Все ячейки календаря должны быть одинаковыми по размеру с полями 5px и отступами 10px.",
+        "Размер шрифта в ячейке должен быть 10px, интенсивность bold, текст выровнен по центру.",
+        "Цвет заднего фона пусть будет rgb(255, 198, 0)."
+      ]
+    }
+  }
+}

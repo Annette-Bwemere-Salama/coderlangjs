@@ -1,0 +1,25 @@
+{
+  "jsLectureId": 351,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Circles",
+      "description": [
+        "Add two more circles to the line.",
+        "They should be styled in the same way as the first two."
+      ]
+    },
+    "ru": {
+      "title": "Круги",
+      "description": [
+        "Добавь еще два круга в строчку.",
+        "Они должны быть стилизованы точно так же, как и первые два."
+      ]
+    }
+  }
+}

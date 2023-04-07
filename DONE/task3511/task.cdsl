@@ -1,0 +1,25 @@
+{
+  "jsLectureId": 351,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "First Try",
+      "description": [
+        "Go to `App.js` file. There is a `Text` element.",
+        "Change the inner text of this document to `My first React Native try`."
+      ]
+    },
+    "ru": {
+      "title": "Первая проба",
+      "description": [
+        "Открой файл `App.js`. Там есть элемент `Text`.",
+        "Измени внутренний текст этого документа на `My first React Native try`."
+      ]
+    }
+  }
+}

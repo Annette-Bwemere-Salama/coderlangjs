@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 351,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Colors",
+      "description": [
+        "In the file `App.js`, the component must return a column of three blocks. ",
+        "The column should fill the entire screen - the `flex` property should be `1`.",
+        "The first block of the column should have `blue` background, the second one - `green`, and the third - `yellow`.",
+        "All three blocks must be equal and completely cover the screen."
+      ]
+    },
+    "ru": {
+      "title": "Цвета",
+      "description": [
+        "В файле `App.js` компонент должен возвращать колонку из трех блоков.",
+        "Колонка должна занимать весь экран - свойство flex равно 1.",
+        "Первый блок колонки с синим фоном (`blue`), второй - зеленым (`green`), третий - желтым (`yellow`).",
+        "Все три блока должны быть равны между собой и полностью закрывать экран."
+      ]
+    }
+  }
+}

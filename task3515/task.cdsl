@@ -1,0 +1,35 @@
+{
+  "jsLectureId": 351,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Screen Layout",
+      "description": [
+        "Let's work on the layout of the screen.",
+        "The screen should have three lines, all of the same height.",
+        "The second line should have two columns - the second should be twice as wide as the first.",
+        "The background of the first line should be `rgb(255, 198, 0)`, the text should be `Header`.",
+        "The background of the first column of the second row should be `#38287F`, the text should be `1`.",
+        "The background of the second column is `rgb(29,104,208)`, text `2`.",
+        "The background of the third line should be `#1DBEBE`, the text should be `Footer`."
+      ]
+    },
+    "ru": {
+      "title": "Разметка экрана",
+      "description": [
+        "Проработаем разметку экрана.",
+        "Экран должен состоять из трех строчек, все равной высоты.",
+        "Вторая строка должна состоять из двух колонок - вторая должна быть в два раза шире первой.",
+        "Задний фон первой строки должен быть `rgb(255, 198, 0)`, текст - `Header`.",
+        "Задний фон первой колонки второй строки должен быть `#38287F`, текст - `1`.",
+        "Задний фон второй колонки - `rgb(29,104,208)`, текст `2`.",
+        "Задний фон третей строки должен быть `#1DBEBE`, текст - `Footer`."
+      ]
+    }
+  }
+}
