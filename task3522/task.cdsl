@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 352,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Fix me",
+      "description": [
+        "The `<App />` component consists of three blocks. Each already has its own color and width.",
+        "For some reason, these blocks are not displayed.",
+        "This is most likely due to the fact that neither a height nor a `flex` property is specified.",
+        "Let's fix this situation.",
+        "The second block should be twice the height of the first, the third three."
+      ]
+    },
+    "ru": {
+      "title": "Почини меня",
+      "description": [
+        "Компонент `<App />` состоит из трех блоков. У каждого уже есть свой цвет и ширина.",
+        "По каким-то причинам эти блоки не отображаются.",
+        "Скорее всего это связано с тем, что им не указана ни высота, ни свойство `flex`.",
+        "Давай исправим эту ситуацию.",
+        "Второй блок должен быть в два раза выше первого, третий - в три."
+      ]
+    }
+  }
+}

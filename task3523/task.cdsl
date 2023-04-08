@@ -1,0 +1,35 @@
+{
+  "jsLectureId": 352,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Stairs",
+      "description": [
+        "The structure of the stairs is already ready. All that remains is to specify the width of the steps.",
+        "The width of the bottom step must be the same as the width of the screen.",
+        "The second step from the bottom should be 0.75 times the width of the screen.",
+        "The third step from the bottom must be 0.5 times the width of the screen.",
+        "The top step must be 0.25 of the screen width.",
+        "The height of each step should be 0.25 of the viewport height.",
+        "Use the `Dimensions` module to complete the task."
+      ]
+    },
+    "ru": {
+      "title": "Лестница",
+      "description": [
+        "Структура лестницы уже готова. Осталось только указать ширину ступенек.",
+        "Ширина нижней ступеньки должна равняться ширине экрана.",
+        "Ширина второй снизу ступенька должна составлять 0.75 ширины экрана.",
+        "Ширина третьей снизу ступенька должна составлять 0.5 ширины экрана.",
+        "Ширина верхней ступеньки должна составлять 0.25 ширины экрана.",
+        "Высота каждой ступеньки должна составлять 0.25 высоты окна просмотра.",
+        "Для выполнения задачи используй модуль `Dimensions`"
+      ]
+    }
+  }
+}

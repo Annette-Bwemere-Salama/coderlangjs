@@ -14,8 +14,8 @@ Platform:
   linux x64
 
 Trace: 
-  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
-      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+  Error: connect ENETUNREACH 192.168.50.36:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
 
 npm manifest: 
   {

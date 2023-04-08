@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 352,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Image sizing",
+      "description": [
+        "Add the image `https://learn.coderslang.com/lecture-background-image.jpg` inside the top-level `View` container.",
+        "The image must be in the middle of its container.",
+        "Image width must be 80% of screen width.",
+        "The image should be displayed in its entirety in the original aspect ratio.",
+        "Use the `Dimensions` module to complete the task."
+      ]
+    },
+    "ru": {
+      "title": "Размер изображения",
+      "description": [
+        "Внутри контейнера `View` верхнего уровня добавь изображение `https://learn.coderslang.com/lecture-background-image.jpg`.",
+        "Изображение должно находится посередине своего контейнера.",
+        "Ширина изображения должна быть 80% от ширины экрана.",
+        "Изображение должно отображаться полностью с соблюдением начальных пропорций.",
+        "Для выполнения задачи используй модуль `Dimensions`"
+      ]
+    }
+  }
+}

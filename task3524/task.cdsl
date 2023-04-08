@@ -1,0 +1,43 @@
+{
+  "jsLectureId": 352,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Navigation Layout",
+      "description": [
+        "We need to prepare the bottom navigation markup.",
+        "Inside a `View` with styles `style.navbar`, add four `Image` elements.",
+        "These images will be our navigation buttons.",
+        "Each image must be 40px high and 60px wide.",
+        "The corners of each image must be 5px rounded.",
+        "The resizeMode of each image must be` center` so that the images are in the middle of the button. ",
+        "The background of each button must be `rgba(26, 138, 173, 0.49)`.",
+        "The source of the first image must be `https://learn.coderslang.com/home.png`.",
+        "The source of the second image must be `https://learn.coderslang.com/like.png`.",
+        "The source of the third image should be `https://learn.coderslang.com/search.png`.",
+        "The source of the fourth image should be `https://learn.coderslang.com/profile.png`."
+      ]
+    },
+    "ru": {
+      "title": "Разметка навигации",
+      "description": [
+        "Нужно подготовить разметку нижней навигации.",
+        "Внутри `View` со стилями `styles.navbar` добавь четыре элемента `Image`.",
+        "Эти изображения и будут кнопками нашей навигации.",
+        "Высота каждого изображения должна быть 40px, ширина - 60px.",
+        "Углы каждого изображения должны быть скруглены на 5px.",
+        "`resizeMode` каждого изображения должен быть `center`, что бы изображения были посередине кнопки.",
+        "Задний фон каждой кнопки должен быть `rgba(26, 138, 173, 0.49)`.",
+        "`source` первого изображения должен быть `https://learn.coderslang.com/home.png`.",
+        "`source` второго изображения должен быть `https://learn.coderslang.com/like.png`.",
+        "`source` третьего изображения должен быть `https://learn.coderslang.com/search.png`.",
+        "`source` четвертого изображения должен быть `https://learn.coderslang.com/profile.png`."
+      ]
+    }
+  }
+}
