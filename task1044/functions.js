@@ -4,3 +4,9 @@ export const getFormattedDate = (date) => {
   }
   return new Date().toUTCString();
 }
+
+
+export const logger = (req, res, next)=>{
+  console.log(`${req.method} ${req.url}`);
+  next()
+}

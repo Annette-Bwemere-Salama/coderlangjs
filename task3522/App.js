@@ -1,23 +1,39 @@
 import React from 'react';
-import { Dimensions, StyleSheet, View } from 'react-native';
-
-const { width } = Dimensions.get('window');
-
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <View style={{ backgroundColor: '#5B37B6', width: 0.2 * width }} />
-      <View style={{ backgroundColor: '#C8379D', width: 0.4 * width }} />
-      <View style={{ backgroundColor: '#E39A28', width: 0.6 * width }} />
-    </View>
-  );
-}
+import { StyleSheet, View } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
+  },
+  block: {
+    height: 50,
+  },
+  block1: {
+    width: '20%',
+    flex: 1,
+    backgroundColor: 'red',
+  },
+  block2: {
+    width: '40%',
+    flex: 2,
+    backgroundColor: 'blue',
+  },
+  block3: {
+    width: '60%',
+    flex: 3,
+    backgroundColor: 'green',
   },
 });
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <View style={[styles.block, styles.block1]} />
+      <View style={[styles.block, styles.block2]} />
+      <View style={[styles.block, styles.block3]} />
+    </View>
+  );
+}
