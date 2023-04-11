@@ -1,0 +1,28 @@
+{
+  "jsLectureId": 403,
+  "reward": 5,
+  "tutors": [
+    "C2H5"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Sort",
+      "description": [
+        "Implement the `sort` function which should sort the array.",
+        "",
+        "Sort order should be ascending.",
+        "",
+        "You can't use any third party modules or built in Array functions."
+      ]
+    },
+    "ru": {
+      "title": "Sort",
+      "description": [
+        "Реализуй функцию `sort`, которая должна сортировать массив по возрастанию.",
+        "",
+        "Ты не можешь использовать `npm` модули или встроенные функции `Array`."
+      ]
+    }
+  }
+}

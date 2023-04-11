@@ -1,0 +1,26 @@
+{
+  "jsLectureId": 402,
+  "reward": 5,
+  "tutors": [
+    "C2H5"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Get bit",
+      "description": [
+        "Implement the function `getBit(n, pos)`.",
+        "It should return the value of the bit found on position `pos` of the number `n`.",
+        "The position of the rightmost bit is `0`."
+      ]
+    },
+    "ru": {
+      "title": "Получи бит",
+      "description": [
+        "Реализуй функцию `getBit(n, pos)`.",
+        "Она должна вернуть значение бита на позиции `pos` в числе `n`.",
+        "У самого правого бита позиция равна `0`."
+      ]
+    }
+  }
+}

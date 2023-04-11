@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 401,
+  "reward": 5,
+  "tutors": [
+    "C2H5"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Feel the difference",
+      "description": [
+        "Implement function `getDiff` in `helper.js`",
+        "It should return the difference between two arrays",
+        "The difference in the context of this task is an array that consists of all the elements that are unique to one of the arrays",
+        "Example: `getDiff([1,2,3], [1,2,4,4])` returns `[3,4]`",
+        "The resulting array should contain unique values only"
+      ]
+    },
+    "ru": {
+      "title": "Почувствуй разницу",
+      "description": [
+        "Реализуй функцию `getDiff` в `helper.js`",
+        "Она должна вернуть разницу между двумя массивами",
+        "Разница, в контексте этой задачи, это массив, состоящий из всех элементов, которые присутствуют только в одном из массивов",
+        "Пример: `getDiff([1,2,3], [1,2,4,4])` вернет `[3,4]`",
+        "В результате должны быть только уникальные значения"      ]
+    }
+  }
+}

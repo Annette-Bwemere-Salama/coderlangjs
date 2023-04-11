@@ -1,0 +1,30 @@
+{
+  "jsLectureId": 403,
+  "reward": 5,
+  "tutors": [
+    "Technic"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Are arrays identical?",
+      "description": [
+        "Implement the function `isArrayIdentical` in `helper.js`",
+        "",
+        "It should return true if two arrays have the same elements. The order of the elements doesn't matter.",
+        "",
+        "Arrays will only have plain fields (strings, numbers or booleans)"
+      ]
+    },
+    "ru": {
+      "title": "Одинаковы ли массивы?",
+      "description": [
+        "Реализуй функцию `isArrayIdentical` в `helper.js`",
+        "",
+        "Она должна принять два массива и проверить содержат ли они одни и те же элементы. Порядок элементов не имеет значения.",
+        "",
+        "Элементами массивов будут только примитивные значения (строки, числа или true/false)"
+      ]
+    }
+  }
+}

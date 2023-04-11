@@ -1,0 +1,26 @@
+{
+  "jsLectureId": 401,
+  "reward": 3,
+  "tutors": [
+    "C2H5"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "No duplicates",
+      "description": [
+        "Implement function `removeDuplicates` in `helper.js`",
+        "It should return the unique values from any array",
+        "Example: `removeDuplicates([1,1,2,3,3)` returns `[1,2,3]`"
+      ]
+    },
+    "ru": {
+      "title": "Никаких дубликатов",
+      "description": [
+        "Реализуй функцию `removeDuplicates` в `helper.js`",
+        "Она должна вернуть массив состоящий из уникальных элементов входящего массива",
+        "Пример: `removeDuplicates([1,1,2,3,3)` вернет `[1,2,3]`"
+      ]
+    }
+  }
+}

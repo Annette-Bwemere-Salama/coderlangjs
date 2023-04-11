@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 404,
+  "reward": 5,
+  "tutors": [
+    "C2H5"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Fast Sort",
+      "description": [
+        "Implement the `fastSort` function which should sort the array.",
+        "",
+        "Sort order should be ascending.",
+        "The time complexity should be better than `O(n^2)`, preferably `O(n*log(n))`.",
+        "",
+        "You can't use any third party modules or built in Array functions."
+      ]
+    },
+    "ru": {
+      "title": "Sort",
+      "description": [
+        "Реализуй функцию `sort`, которая должна сортировать массив по возрастанию.",
+        "",
+        "Временная сложностью должна быть лучше чем `O(n^2)`, желательно `O(n*log(n))`.",
+        "",
+        "Ты не можешь использовать `npm` модули или встроенные функции `Array`."
+      ]
+    }
+  }
+}

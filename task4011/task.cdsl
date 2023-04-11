@@ -1,0 +1,32 @@
+{
+  "jsLectureId": 401,
+  "reward": 5,
+  "tutors": [
+    "C2H5"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Binary search",
+      "description": [
+        "Implement the `binarySearch` function.",
+        "It should accept a sorted array and a number.",
+        "It should return the position of the number in the array or -1 if it's not found.",
+        "",
+        "You can't use any third party modules or built in Array functions.",
+        "P.S. If you've forgotten the details, go back to one of the intro lectures and find the pseudocode implementation."
+      ]
+    },
+    "ru": {
+      "title": "Бинарный поиск",
+      "description": [
+        "Реализуй функцию `binarySearch`.",
+        "Она должна принять отсортированный массив и число.",
+        "Вернуть нужно позицию числа в массиве или -1, если совпадение не было найдено.",
+        "",
+        "Ты не можешь использовать встроенные функции массива или `npm` модули.",
+        "P.S. Если ты забыл что такое двоичный поиск, вернись на одну из первых лекций и найди там реализацию алгоритма на псевдокоде."
+      ]
+    }
+  }
+}
