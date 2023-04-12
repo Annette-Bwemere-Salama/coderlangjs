@@ -1,14 +1,17 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View , Dimensions} from 'react-native';
 
-// const {width, heigth} = Dimensions.get('screen')
+const {width} = Dimensions.get('screen')
+const moise =  width * 0.2;
+const bene = width * 0.4;
+const zoe = width * 0.6;
 
 export default function App() {
   return (
     <View style={{flex: 1, flexDirection:"row"}}>
-      <View style={{flex: 1,width: "20%", backgroundColor: 'red'}} />
-      <View style={{width: "40%",flex: 2,backgroundColor: 'blue',}} />
-      <View style={{  width: "60%",flex: 3,backgroundColor: 'green',}} />
+      <View style={{flex: 1,width: moise, backgroundColor: 'red'}} />
+      <View style={{width:bene,flex:2, backgroundColor: 'blue',}} />
+      <View style={{  width: zoe,flex:3, backgroundColor: 'green',}} />
     </View>
   );
 }
