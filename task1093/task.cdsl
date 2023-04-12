@@ -1,0 +1,30 @@
+{
+  "jsLectureId": 109,
+  "reward": 5,
+  "tutors": [
+    "Technic"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Resolve and reject",
+      "description": [
+        "Function `getUser` accepts `userId` and returns a Promise.",
+        "The functionality is missing and you need to fix that.",
+        "- The promise should be rejected if the `userId` is missing.",
+        "- The promise should be resolved with the appropriate user object if the `userId` is provided.",
+        "- Don't change the function `loadData`."
+      ]
+    },
+    "ru": {
+      "title": "Resolve и reject",
+      "description": [
+        "Функция `getUser` принимает `userId` и возвращает Promise.",
+        "Сейчас она работает не так как ожидается. Тебе нужно это исправить.",
+        "- Вызови `reject` или брось ошибку, если `userId` отсутствует.",
+        "- Вызови `resolve` с подходящим объектом, если передан `userId`.",
+        "- Не изменяй функцию `loadData`."
+      ]
+    }
+  }
+}

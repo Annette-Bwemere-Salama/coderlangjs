@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 353,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Forgotten handler",
+      "description": [
+        "Your colleague forgot to add a text input handler for the field.",
+        "Use the `onChangeText` property.",
+        "The value entered by the user must be stored in the `name` variable and displayed in the input."
+      ]
+    },
+    "ru": {
+      "title": "Забытый обработчик",
+      "description": [
+        "Твой коллега забыл добавить обработчик ввода текста для поля.",
+        "Используй свойство `onChangeText`.",
+        "Значение, введенное пользователем, должно сохраняться в переменную `name` и отображаться в поле."
+      ]
+    }
+  }
+}

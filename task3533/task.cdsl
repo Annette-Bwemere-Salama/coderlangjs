@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 353,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Feedback form",
+      "description": [
+        "The form has already added an email field.",
+        "Add another message field just below the email address.",
+        "The field must be multi-line, use the` onChange` method to handle the input.",
+        "The new input field should be styled exactly like the first.",
+        "Add a placeholder to the second field - 'Message'."
+      ]
+    },
+    "ru": {
+      "title": "Форма обратной связи",
+      "description": [
+        "В форме уже добавлено поле для ввода email.",
+        "Добавь еще одно поле для ввода сообщения сразу под полем для ввода email.",
+        "Поле должно быть многострочным, используй метод `onChange` для обработки ввода.",
+        "Новое поле ввода должно быть стилизовано точно так же, как и первое",
+        "Добавь placeholder второму полю - 'Message'."
+      ]
+    }
+  }
+}

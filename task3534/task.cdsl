@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 353,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Click counter",
+      "description": [
+        "Your colleague left a component incomplete.",
+        "Let's complete it. All that's left to do is add a button.",
+        "Add a standard button` Button`, the text on the button should be 'Click me'. ",
+        "When the button is clicked, the handleTouch method must be called."
+      ]
+    },
+    "ru": {
+      "title": "Счетчик нажатий",
+      "description": [
+        "Твой коллега оставил компонент не законченным.",
+        "Давай завершим его. Все, что осталось сделать - добавить кнопку.",
+        "Добавь стандартную кнопку `Button`, текст на кнопке должен быть - 'Click me'.",
+        "При нажатии на кнопку - должен вызываться метод `handleTouch`."
+      ]
+    }
+  }
+}

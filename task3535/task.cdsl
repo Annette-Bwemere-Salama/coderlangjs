@@ -1,0 +1,103 @@
+{
+  "jsLectureId": 353,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Sign-in form",
+      "description": [
+        "Now let's try to create a simple registration form"
+      ],
+      "stages": {
+        "1": [
+          "`App.js` already has a screen title.",
+          "Just below the text heading, add two text input components.",
+          "Both input fields must be `60px` high and `80%` of the screen width.",
+          "The top margin of each input field should be `20px`, and the padding on all sides should be `10px`.",
+          "The background color should be white (`#ffffff`), the font size should be `20px`.",
+          "Border radius must be `10px`."
+        ],
+        "2": [
+          "Now let's add some logic to each field.",
+          "The placeholder text of the first field should be `Enter email`, the second should be `Enter password`.",
+          "Placeholder text color must be `#254441`.",
+          "The initial value of each field must be an empty string.",
+          "The `onChangeText` handler should modify and save the entered line of each field.",
+          "The characters entered in the second field must be hidden - all the same, we enter the password."
+        ],
+        "3": [
+          "We'll add a button below the fields, which we'll style ourselves. To do this, we'll need to use `TouchableOpacity`.",
+          "Opacity should be `0.75` when clicked.",
+          "Button height must be `60px` and width `80`% of the screen width.",
+          "Top margin should be `20px`. Corner rounding should be `10px`.",
+          "The background color must be `#43AA8B`.",
+          "The elements inside the button will be aligned in the center, both vertically and horizontally.",
+          "For alignment - use the appropriate flex properties."
+        ],
+        "4": [
+          "Now let's add the text 'Login' inside the button.",
+          "The font weight should be `bold`, the font size should be 20."
+        ],
+        "5": [
+          "Now is the time to add the `onPress` handler to the button.",
+          "When you click on it, the component should change.",
+          "Instead of a title and button fields, two text components should appear.",
+          "The first one should display the word 'Hello'.",
+          "The second is the email you entered earlier.",
+          "The styles of both components must be the same as the original styles for the 'Sign in' header."
+        ]
+      },
+      "final": "Congratulations! You have successfully completed this task."
+    },
+    "ru": {
+      "title": "Форма регистрации",
+      "description": [
+        "Сейчас попробуем создать простую форму регистрации"
+      ],
+      "stages": {
+        "1": [
+          "В `App.js` уже есть заголовок экрана.",
+          "Сразу под текстовым заголовком добавь два компонента для ввода текста.",
+          "Оба поля для ввода должны быть высотой `60px` и шириной 80% от ширины экрана.",
+          "Верхнее поле (margin) каждого поля ввода должно быть `20px`, а отступы со всех сторон - `10px`.",
+          "Цвет заднего фона должен быть белым (`#ffffff`), размер шрифта - `20px`.",
+          "Скругление углов должно равняться 10"
+        ],
+        "2": [
+          "Теперь добавим немного логики каждому полю.",
+          "Текст заполнителя (placeholder) первого поля должен быть - `Enter email`, второго - `Enter password`.",
+          "Цвет текста заполнителя должен быть `#254441`",
+          "Начальное значение каждого поля должно быть пустой строкой.",
+          "Обработчик `onChangeText` должен изменять и сохранять введенную строку каждого поля.",
+          "Символы, введенные во втором поле, должны быть скрыты - все таки пароль вводим."
+        ],
+        "3": [
+          "Под полями добавим кнопку, которую сами стилизуем. Для этого надо будет использовать `TouchableOpacity`.",
+          "Прозрачность при нажатии должна составлять `0.75`.",
+          "Высота кнопки должна равняться `60px` и ширина 80% от ширины экрана",
+          "Верхнее поле должно равняться `20px`. Скругление углов должно равняться `10px`",
+          "Цвет заднего фона должен быть `#43AA8B`.",
+          "Элементы внутри кнопки будем выравнивать по середине и по вертикали, и по горизонтали.",
+          "Для выравнивая используй соответствующие flex свойства."
+        ],
+        "4": [
+          "Теперь внутри кнопки добавим текст `Login`.",
+          "Интенсивность должна быть `bold`, размер шрифта равный `20px`."
+        ],
+        "5": [
+          "Теперь самое время добавить обработчик `onPress` на кнопку.",
+          "При нажатии на нее компонент должен измениться.",
+          "Вместо заголовка и полей с кнопкой, должно появится два текстовых компонента.",
+          "Первый должен отображать слово `Hello`.",
+          "Второй - введенный ранее email.",
+          "Стили обоих компонентов должны быть такие же, как изначальные стили у заголовку 'Sign in'."
+        ]
+      },
+      "final": "Поздравляем! Ты успешно справился с этой задачей."
+    }
+  }
+}

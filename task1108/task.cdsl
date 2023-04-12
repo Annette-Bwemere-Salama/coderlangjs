@@ -1,0 +1,172 @@
+{
+  "jsLectureId": 110,
+  "reward": 20,
+  "tutors": [
+    "Technic"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Funky console",
+      "description": [
+        "Programming should be fun!",
+        "In this task, you'll learn how to add a randomized delay",
+        "to the `console.log` statements in JavaScript and Node.js."
+      ],
+      "final": [
+        "As I've said from the very beginning, first of all, programming should be fun.",
+        "Otherwise it'll become a routine and you won't enjoy doing it.",
+        "Do make further improvements to the `funkylog` and let me know what your results look like!",
+        "For example, you can spice up the output by colorizing it. You can use the `npm` module `chalk` for it.",
+        "",
+        "Explore more ideas in our [programming blog](https://learn.coderslang.com)"
+      ],
+      "stages": {
+        "1": [
+          "We'll start small.",
+          "In the file `function.js` you see an empty function `log`.",
+          "The task is very straightforward: ",
+          "- `log` should accept a string and print it on the screen using `console.log`"
+        ],
+        "2": [
+          "Now, we'll split the output into individual characters.",
+          "Each character should be printed separately using `console.log`",
+          "Also, let's refactor the code and rename our function to `splitLog`"
+        ],
+        "3": [
+          "The problem is that now each character is printed on a separate line.",
+          "We can fix this by replacing `console.log` with `process.stdout.write`.",
+          "As we still want the output to end with a newline character, print `\\n`",
+          "once you're done with the main string",
+          "And, yeah. Let's rename our function once again.",
+          "`writeLog` sounds like decent name to me."
+        ],
+        "4": [
+          "Great job! Now we'll start working on a delay.",
+          "Implement a `sleep` function and export it from the file `helper.js`",
+          "Here's the spec:",
+          "- `sleep` should return a Promise",
+          "- the Promise returned by `sleep(ms)` should be resolved in `ms` milliseconds"
+        ],
+        "5": [
+          "Let's use the sleep function that you've just implemented.",
+          "- add a second parameter `delay` to the function `writeLog`",
+          "- sleep for `delay` milliseconds after printing each character",
+          "- don't forget the `async` and `await keywords!"
+        ],
+        "6": [
+          "The output will look even better if we randomize the timing.",
+          "Let's add another boolean parameter `randomized` to the function `writeLog`.",
+          "If it's true, then the argument passed into `sleep`",
+          "should be in the range from 0 to `delay` milliseconds.",
+          "Otherwise, the delay shouldn't change."
+        ],
+        "7": [
+          "Right now, we've implemented pretty much everything we wanted to.",
+          "But calling it isn't very clean as we have to pass the delay",
+          "and randomization flag every time we want to print something to the console.",
+          "",
+          "`writeLog('Hello, world!', 100, true);`",
+          "",
+          "It'd be nice if we could have a configurable log",
+          "that could be called with a single parameter - a string that we want to output.",
+          "To do this, we'll have to rewrite our code. Here's the plan:",
+          "- wrap all current functionality into a single function `funkylog`",
+          "- `funkylog` should accept an object with 2 fields: `delay` and `randomized`",
+          "- `funkylog` should return the anonymous arrow function, which accepts a string as a parameter and then calls `writeLog` with this string",
+          "",
+          "Here's how it will be used:",
+          "`const log = funkylog({ delay: 100, randomized: true });`",
+          "`log('Hello, world!');`"
+        ],
+        "8": [
+          "You did a great job!",
+          "One more thing and we'll be good to go",
+          "Let's add a default delay of 100ms to the `funkylog`.",
+          "So, if the field `delay` is missing from the config object, we set it to the default value."
+        ]
+      }
+    },
+    "ru": {
+      "title": "Забавная консоль",
+      "description": [
+        "Программирование должно быть веселым!",
+        "В этой задаче ты научишься добавлять случайную задержку",
+        "к вызовам `console.log` в JavaScript и Node.js."
+      ],
+      "final": [
+        "Как я говорил в самом начале, программирование должно быть веселым..",
+        "Иначе, оно очень быстро превратится в рутину и надоест.",
+        "Продолжи улучшать `funkylog` и напиши мне что у тебя получилось!",
+        "Например, ты можешь разукрасить буквы с помощью `npm` модуля `chalk`.",
+        "",
+        "Больше интересных идей ты сможешь найти в нашем [блоге о программировании](https://learn.coderslang.com/ru)"
+      ],
+      "stages": {
+        "1": [
+          "Мы начнет потихоньку.",
+          "В файле `function.js` ты видишь пустую функцию `log`.",
+          "Задача простая: ",
+          "- функция `log` должна принять строку и вывести ее на экран с помощью `console.log`"
+        ],
+        "2": [
+          "Сейчас, мы будем разделять вывод на экран на отдельные буквы.",
+          "Каждый символ в строке нужно вывести отдельно используя `console.log`",
+          "Еще, давай немного подправим название функции. Теперь у нас `splitLog`"
+        ],
+        "3": [
+          "Проблема в том, что все буквы выводятся с новой строки.",
+          "Мы можем решить ее заменив `console.log` на `process.stdout.write`.",
+          "Так как мы по прежнему хотим, чтобы в самом конце был переход на новую строку, добавь `\\n`",
+          "после того, как закончишь с основной строкой",
+          "И, да. Давай снова переименуем нашу функцию.",
+          "Мне нравится имя `writeLog`."
+        ],
+        "4": [
+          "Отличная работа! Теперь начнем работать над задержкой.",
+          "Реализуй функцию `sleep` и экспортируй ее из файла `helper.js`",
+          "Вот задание:",
+          "- функция `sleep` должна вернуть Promise",
+          "- промис который вернет `sleep(ms)` должен быть успешно завершен через `ms` миллисекунд"
+        ],
+        "5": [
+          "Давай используем функцию `sleep`, которую ты только что реализовал.",
+          "- добавь второй параметр `delay` в функцию `writeLog`",
+          "- останови вывод на экран на `delay` миллисекунд после вывода новой буквы",
+          "- не забудь добавить ключевые слова `async` и `await`!"
+        ],
+        "6": [
+          "Логирование будет выглядеть еще круче, если задержка станет случайной.",
+          "Добавь еще один параметр `randomized` в функцию `writeLog`.",
+          "Если он `true`, то задержка переданная в `sleep`",
+          "Должна быть в диапазоне от 0 до `delay` миллисекунд.",
+          "А если `false`, то все остается как сейчас."
+        ],
+        "7": [
+          "Сейчас, мы реализовали почти все что хотели.",
+          "Но вызов логгера не очень красиво выглядит, потому что мы должны каждый раз",
+          "передавать задержку и флаг `randomized` когда хотим что-то вывести в консоль.",
+          "",
+          "`writeLog('Hello, world!', 100, true);`",
+          "",
+          "Было бы круто сделать конфигурируемый логгер",
+          "который можно было бы вызывать с одним параметром - строкой.",
+          "Чтобы сделать это, нам нужно переписать наш код. Вот план:",
+          "- спрячем весь функционал в функцию `funkylog`",
+          "- `funkylog` должен принять объект с двумя полями: `delay` и `randomized`",
+          "- `funkylog` должен вернуть анонимную функцию, которая примет строку и передаст ее в `writeLog`",
+          "",
+          "Вот как все будет работать:",
+          "`const log = funkylog({ delay: 100, randomized: true });`",
+          "`log('Hello, world!');`"
+        ],
+        "8": [
+          "Отличная работа!",
+          "Еще одна вещь и будем закругляться.",
+          "Давай сделаем задержку по умолчанию - 100ms в `funkylog`.",
+          "Так, если поля `delay` не будет в конфиге, мы подставим дефолтное значение."
+        ]
+      }
+    }
+  }
+}

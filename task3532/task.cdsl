@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 353,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Fix handler",
+      "description": [
+        "An input field has been added to `<App />` and it has a method called `onChange`. ",
+        "But the app doesn't work.",
+        "Pass the correct handler to `onChange` to make it work."
+      ]
+    },
+    "ru": {
+      "title": "Почини обработчик",
+      "description": [
+        "В `<App />` добавлено поле ввода, и у него определен метод `onChange`.",
+        "Но приложение не работает.",
+        "Передай в `onChange` правильный обработчик, что бы все заработало"
+      ]
+    }
+  }
+}
