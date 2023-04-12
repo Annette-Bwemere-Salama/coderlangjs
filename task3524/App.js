@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, StyleSheet, Text, View, PixelRatio} from 'react-native';
+import { Image, StyleSheet, Text, View} from 'react-native';
 
 export default function App() {
   return (
@@ -39,10 +39,11 @@ const styles = StyleSheet.create({
   imaG:{
     borderRadius: 5, 
     flex: 1 ,
-     resizeMode: "center",
-      height:"40px", width: "60px", 
-      backgroundColor: "rgba(26, 138, 173, 0.49)",
-      width: PixelRatio.getPixelSizeForLayoutSize(60),
-      height: PixelRatio.getPixelSizeForLayoutSize(40)
+    resizeMode: "center",
+    backgroundColor: "rgba(26, 138, 173, 0.49)",
+    width: 60,
+    height: 40,
+    // width: PixelRatio.getPixelSizeForLayoutSize(60),
+    // height: PixelRatio.getPixelSizeForLayoutSize(40)
   }
 });
