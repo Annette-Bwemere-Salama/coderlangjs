@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, Text, View, Button } from 'react-native';
 
 export default function App() {
   return (
@@ -7,7 +7,12 @@ export default function App() {
       <View style={styles.screen}>
         <Text>Screen content</Text>
       </View>
-      <View style={styles.navbar}></View>
+      <View style={styles.navbar}>
+            <Image style={styles.imaG}  source={{ uri: 'https://learn.coderslang.com/home.png' }}  />
+            <Image style={styles.imaG} source={{ uri: 'https://learn.coderslang.com/like.png' }} />  
+            <Image style={styles.imaG} source={{ uri: 'https://learn.coderslang.com/search.png' }}/> 
+            <Image style={styles.imaG} source={{ uri: 'https://learn.coderslang.com/profile.png' }}/>
+      </View>
     </View>
   );
 }
@@ -31,4 +36,7 @@ const styles = StyleSheet.create({
     paddingLeft: 40,
     paddingRight: 40,
   },
+  imaG:{
+    borderRadius: 5, flex: 1 , resizeMode: "center", height:"40px", width: "60px", backgroundColor: "rgba(26, 138, 173, 0.49)"
+  }
 });
