@@ -3,13 +3,16 @@ import { StyleSheet, Text, TextInput, View, Dimensions } from 'react-native';
 
 const { width} =  Dimensions.get('screen')
 const myInputWidth = width * 0.8
+const [email , setEmail] = React.useState("")
+const [password , setPassword] = React.useState("")
+
 // const myInputHeigth =  PixelRatio.getPixelSizeForLayoutSize(60)
 export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Sign In</Text>
-      <TextInput style={styles.inpuT} >Username</TextInput>
-      <TextInput style={styles.inpuT}>Email</TextInput>
+      <TextInput onChangeText={setEmail} value={email} style={styles.inpuT} placeholder='Enter email'>Email</TextInput>
+      <TextInput onChangeText={setPassword} value={password} style={styles.inpuT} placeholder='Enter password'>password</TextInput>
     </View>
   );
 }
@@ -33,6 +36,8 @@ const styles = StyleSheet.create({
     padding: 10,
     backgroundColor: "#ffffff",
     fontSize: 20,
-    borderRadius: 10
+    borderRadius: 10,
+    placeholderTextColor: '#254441'
+    
   }
 });
