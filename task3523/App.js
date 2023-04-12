@@ -10,6 +10,19 @@ export default function App() {
       <View style={{ backgroundColor: '#1A8AAD' , width: width * 0.75,height: height * 0.25,}} />
       <View style={{ backgroundColor: 'red' , height: height * 0.25, width: width}} />
     </View>
+
+
+    /**
+     * exercise alignement de 4 elements
+     * 
+     * 
+     */
+    // <View style={{ flex: 1 , gap: 10, position: "fixed", padding: 5 }}>
+    //   <View style={{ backgroundColor: '#C8379D' ,width: width ,height: height * 0.25,}} />
+    //   <View style={{ backgroundColor: '#E39A28' , width: width ,height: height * 0.25,}} />
+    //   <View style={{ backgroundColor: '#1A8AAD' , width: width ,height: height * 0.25,}} />
+    //   <View style={{ backgroundColor: 'red' , height: height * 0.25, width: width}} />
+    // </View>
   );
 }
  
