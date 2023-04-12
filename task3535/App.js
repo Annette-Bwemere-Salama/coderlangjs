@@ -3,15 +3,15 @@ import { StyleSheet, Text, TextInput, View, Dimensions } from 'react-native';
 
 const { width} =  Dimensions.get('screen')
 const myInputWidth = width * 0.8
-const [email , setEmail] = React.useState("")
-const [password , setPassword] = React.useState("")
 
 export default function App() {
+  const [email , setEmail] = React.useState("")
+  const [password , setPassword] = React.useState("")
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Sign In</Text>
-      <TextInput onChangeText={setEmail} value={email} style={styles.inpuT} placeholder='Enter email'>Email</TextInput>
-      <TextInput secureTextEntry={true} onChangeText={setPassword} value={password} style={styles.inpuT} placeholder='Enter password'>password</TextInput>
+      <TextInput placeholderTextColor="#254441" onChangeText={setEmail} value={email} style={styles.inpuT} placeholder='Enter email'>Email</TextInput>
+      <TextInput placeholderTextColor="#254441" secureTextEntry={true} onChangeText={setPassword} value={password} style={styles.inpuT} placeholder='Enter password'>password</TextInput>
     </View>
   );
 }
@@ -36,7 +36,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#ffffff",
     fontSize: 20,
     borderRadius: 10,
-    placeholderTextColor: '#254441'
     
   }
 });
