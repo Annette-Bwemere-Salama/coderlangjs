@@ -3,11 +3,14 @@ import { StyleSheet, Text, TextInput, View, Dimensions } from 'react-native';
 
 export default function App() {
   const [email, setEmail] = useState('');
+  const onChange = e=>setEmail(e.target.value)
 
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Leave you feedback</Text>
-      <TextInput placeholder="Email" style={styles.input} value={email} onChangeText={setEmail} />
+      <TextInput placeholder="Email" style={styles.input} value={email} onChangeText={onChange} multiline={true}/>
+      <TextInput placeholder="Message" style={styles.input} value="" onChangeText={text=>setEmail(text)} multiline={true}/>
+      
     </View>
   );
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Button } from 'react-native';
 
 export default class App extends Component {
   state = {
@@ -11,7 +11,9 @@ export default class App extends Component {
   };
 
   render() {
-    return <View style={styles.container}></View>;
+    return <View style={styles.container}>
+      <Button onPress={this.handleTouch} title='Click me'>Click me</Button>
+    </View>;
   }
 }
 
