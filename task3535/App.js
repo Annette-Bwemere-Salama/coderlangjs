@@ -6,13 +6,12 @@ const myInputWidth = width * 0.8
 const [email , setEmail] = React.useState("")
 const [password , setPassword] = React.useState("")
 
-// const myInputHeigth =  PixelRatio.getPixelSizeForLayoutSize(60)
 export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Sign In</Text>
       <TextInput onChangeText={setEmail} value={email} style={styles.inpuT} placeholder='Enter email'>Email</TextInput>
-      <TextInput onChangeText={setPassword} value={password} style={styles.inpuT} placeholder='Enter password'>password</TextInput>
+      <TextInput secureTextEntry={true} onChangeText={setPassword} value={password} style={styles.inpuT} placeholder='Enter password'>password</TextInput>
     </View>
   );
 }
