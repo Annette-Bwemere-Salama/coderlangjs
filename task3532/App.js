@@ -3,9 +3,10 @@ import { Dimensions, StyleSheet, TextInput, View } from 'react-native';
 
 export default function App() {
   const [value, setValue] = useState('');
+  const onChange = e=> setValue(e.target.value)
   return (
     <View style={styles.container}>
-      <TextInput value={value} onChange={setValue} />
+      <TextInput value={value} onChange={onChange} />
     </View>
   );
 }
