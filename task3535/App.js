@@ -1,15 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, TextInput, View, Dimensions } from 'react-native';
 
-const {heigth, width} =  Dimensions.get('screen')
+const { width} =  Dimensions.get('screen')
 const myInputWidth = width * 0.8
-const myInputHeigth = heigth * 0.6
+// const myInputHeigth =  PixelRatio.getPixelSizeForLayoutSize(60)
 export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Sign In</Text>
-      <TextInput>Username</TextInput>
-      <TextInput>Email</TextInput>
+      <TextInput style={styles.inpuT} >Username</TextInput>
+      <TextInput style={styles.inpuT}>Email</TextInput>
     </View>
   );
 }
@@ -26,4 +26,13 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 26,
   },
+  inpuT: {
+    width: myInputWidth,
+    height: 60,
+    marginTop: 20,
+    padding: 10,
+    backgroundColor: "#ffffff",
+    fontSize: 20,
+    borderRadius: 10
+  }
 });
