@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 354,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "FlatList",
+      "description": [
+        "In `App.js`, you need to render the data array to the `FlatList`.",
+        "Each list item must be a block with the style `styles.item`.",
+        "Inside this block, the text corresponding to the list item should be displayed.",
+        "Text styles must be `styles.itemText`.",
+        "The list should be horizontal and the scrolling should be paged."
+      ]
+    },
+    "ru": {
+      "title": "FlatList",
+      "description": [
+        "В `App.js` надо отрендерить массив data в список `FlatList`.",
+        "Каждый элемент списка должен быть блоком со стилем `styles.item`.",
+        "Внутри этого блока должен быть выведен текст, соответствующий элементу списка.",
+        "Стили текста должны быть `styles.itemText`.",
+        "Список должен быть горизонтальный, а прокрутка постраничная."
+      ]
+    }
+  }
+}

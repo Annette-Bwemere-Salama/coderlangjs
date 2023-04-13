@@ -8,13 +8,15 @@ export default function App() {
   const [email , setEmail] = React.useState("")
   const [password , setPassword] = React.useState("")
   const [isPressed, setIsPressed] = useState(false)
+  const [showText, setShowText] = useState(false)
+  const onPressHandler = ()=>{<App/>}
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Sign In</Text>
+      <TextInput placeholderTextColor="#254441" secureTextEntry={true} onChangeText={setPassword} value={password} style={styles.inpuT} placeholder='Enter password'>hello</TextInput>
       <TextInput placeholderTextColor="#254441" onChangeText={setEmail} value={email} style={styles.inpuT} placeholder='Enter email'>Email</TextInput>
-      <TextInput placeholderTextColor="#254441" secureTextEntry={true} onChangeText={setPassword} value={password} style={styles.inpuT} placeholder='Enter password'>password</TextInput>
-    <TouchableOpacity style={styles.button} activeOpacity={0.75}>
-      <Text style={{fontWeight: "bold", fontSize: 20}}     onPressIn={()=> setIsPressed(true)} onPressOut={()=>{setIsPressed(false)}}>Login</Text>
+    <TouchableOpacity  onPress={onPressHandler} style={styles.button} activeOpacity={0.75}>
+      <Text   style={{fontWeight: "bold", fontSize: 20}}>Login</Text>
     </TouchableOpacity>
     </View>
   );

@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 355,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Navigation connection",
+      "description": [
+        "Let's practice turning on navigation.",
+        "The `App` component must return a navigation container with a stacked navigator.",
+        "There should only be one screen in the stack named `Home`.",
+        "The display of this screen must be the `Home` component to be imported from `screen/Home`.",
+        "Do not change the `screen/Home` component"
+      ]
+    },
+    "ru": {
+      "title": "Подключение навигации",
+      "description": [
+        "Потренируемся подключать навигацию.",
+        "Компонент `App` должен возвращать только контейнер навигации с подключенным стэк навигатором.",
+        "В стэке должен быть только один экран с именем `Home`.",
+        "Отображать этот экран должен компонент `Home`, который нужно импортировать из `screens/Home`.",
+        "Не изменяй компонент `screens/Home`"
+      ]
+    }
+  }
+}

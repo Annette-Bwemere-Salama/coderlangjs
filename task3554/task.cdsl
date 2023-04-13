@@ -1,0 +1,83 @@
+{
+  "jsLectureId": 355,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Back navigation",
+      "description": [
+        "Let's practice with nesting navigation and transitions between screens"
+      ],
+      "final": [
+        "Super, you did a great job!"
+      ],
+      "stages": {
+        "1": [
+          "The `App` component should only return a navigation container with a stacked navigator.",
+          "There should be three screens in the stack - the first with the name `Product`, the second with the name `Comments`, the third with the name `Analogues`.",
+          "The first screen should display the `screens/Product` component, the second one should display the `screens/Comments` component, the third one should display the `screens/Analogues` component.",
+          "The `Product` screen should load first.",
+          "Do not modify the components `screens/Product`, `screens/Comments`, `screens/Analogues`."
+        ],
+        "2": [
+          "Let's work on the navigation buttons of the `Product` screen.",
+          "Pressing the first button should take the user to the `Comments` screen.",
+          "Pressing the second button should take the user to the `Analogues` screen."
+        ],
+        "3": [
+          "Let's work on the `Analogues` screen navigation buttons.",
+          "Pressing the first button should take the user to the previous screen.",
+          "Use the `goBack` method for this.",
+          "Pressing the second button should take the user to the` Comments` screen. "
+        ],
+        "4": [
+          "Let's work on the navigation buttons of the `Comments` screen.",
+          "Pressing the first button should take the user to the previous screen.",
+          "Use the `goBack` method for this.",
+          "Pressing the second button should take the user to the initial stack screen.",
+          "Use the `popToTop` method for this."
+        ]
+      }
+    },
+    "ru": {
+      "title": "Навигация назад",
+      "description": [
+        "Попрактикуемся со вложенностью навигации и переходами между экранами"
+      ],
+      "stages": {
+        "1": [
+          "Компонент `App` должен возвращать только контейнер навигации с подключенным стэк навигатором.",
+          "В стэке должен быть три экрана - первый с именем `Product`, второй с именем `Comments`, третий `Analogues`.",
+          "Первый экран должен отображать компонент `screens/Product`, второй - `screens/Comments`, третий - `screens/Analogues`.",
+          "При этом первым должен загружаться экран `Product`.",
+          "Не изменяй компоненты `screens/Product`, `screens/Comments`, `screens/Analogues."
+        ],
+        "2": [
+          "Проработаем кнопки навигации экрана `Product`.",
+          "Нажатие первой кнопки должно переводить пользователя на экран `Comments`.",
+          "Нажатие второй кнопки должно переводить пользователя на экран `Analogues`."
+        ],
+        "3": [
+          "Проработаем кнопки навигации экрана `Analogues`.",
+          "Нажатие первой кнопки должно переводить пользователя на предыдущий экран.",
+          "Используй метод `goBack` для этого.",
+          "Нажатие второй кнопки должно переводить пользователя на экран `Comments`."
+        ],
+        "4": [
+          "Проработаем кнопки навигации экрана `Comments`.",
+          "Нажатие первой кнопки должно переводить пользователя на предыдущий экран.",
+          "Используй метод `goBack` для этого.",
+          "Нажатие второй кнопки должно переводить пользователя на начальный экран стэка.",
+          "Используй метод `popToTop` для этого."
+        ]
+      },
+      "final": [
+        "Супер, ты отлично справился с задачей!"
+      ]
+    }
+  }
+}

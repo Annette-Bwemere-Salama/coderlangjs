@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 355,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Initial screen",
+      "description": [
+        "The `App` component must return a navigation container with a stacked navigator.",
+        "There should be two screens in the stack - the first named `Components`, and the second named `APIs`.",
+        "The first screen should display the `screens/RNComponents` component, the second one - `screens/RNAPIs`",
+        "In this case, the `APIs` screen should be displayed first.",
+        "Do not change `screens/RNComponents` and `screens/RNAPIs` components."
+      ]
+    },
+    "ru": {
+      "title": "Начальный экран",
+      "description": [
+        "Компонент `App` должен возвращать только контейнер навигации с подключенным стэк навигатором.",
+        "В стэке должен быть два экрана - первый с именем `Components`, а второй с именем `APIs`.",
+        "Первый экран должен отображать компонент `screens/RNComponents`, второй - `screens/RNAPIs`",
+        "При этом первым должен загружаться экран `APIs`.",
+        "Не изменяй компоненты `screens/RNComponents` и `screens/RNAPIs`."
+      ]
+    }
+  }
+}

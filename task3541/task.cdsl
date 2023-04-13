@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 354,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Fix view",
+      "description": [
+        "The text of the `App.js` component will overlap the status bar on iOS. ",
+        "You need to fix this, the correct view was used.",
+        "All styles and text should remain unchanged."
+      ]
+    },
+    "ru": {
+      "title": "Почини отображение",
+      "description": [
+        "Текст компонента `App.js` налазит на строку состояния на iOS.",
+        "Тебе надо это исправить, использовав правильное отображение (view).",
+        "Все стили и текст должны остаться без изменения."
+      ]
+    }
+  }
+}

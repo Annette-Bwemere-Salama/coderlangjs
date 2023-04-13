@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 354,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Scroll throw poems",
+      "description": [
+        "The applications with Bayron's poems are almost ready. All that remains is to display the poems.",
+        "To display in verse, call the renderPoems method.",
+        "The verses should be displayed in a `ScrollView` just below the header container.",
+        "Do not change the `renderPoems` method."
+      ]
+    },
+    "ru": {
+      "title": "Прокрутка стихов",
+      "description": [
+        "Приложения со стихами Байрона уже практически готово. Осталось только отобразить стихи.",
+        "Для отображения стихом нужно вызвать метод `renderPoems`.",
+        "Отображать стихи нужно в `ScrollView` сразу под контейнером заголовка.",
+        "Не изменяй метод `renderPoems`."
+      ]
+    }
+  }
+}

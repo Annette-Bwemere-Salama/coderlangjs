@@ -1,0 +1,57 @@
+{
+  "jsLectureId": 355,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Screens transitions",
+      "description": [
+        "Let's practice adding transitions between screens"
+      ],
+      "final": [
+        "Super, you did a great job!"
+      ],
+      "stages": {
+        "1": [
+          "The `App` component must return a navigation container with a stacked navigator.",
+          "There should be two screens in the stack - the first named `Frontend`, and the second named `Backend`.",
+          "The first screen should display the `screens/FrontendScreen` component, the second one - `screens/BackendScreen`",
+          "In this case, the `Frontend` screen should be displayed first.",
+          "Do not change `screens/FrontendScreen` and `screens/BackendScreen` components."
+        ],
+        "2": [
+          "Now let's add transitions between screens.",
+          "From the `Frontend` screen we should go to the `Backend` screen when clicking on the `Check BE stack` button",
+          "From the `Backend` screen we should go to the `Frontend` screen when clicking on the `Check FE stack` button"
+        ]
+      }
+    },
+    "ru": {
+      "title": "Переходы между экранами",
+      "description": [
+        "Потренируемся добавлять переходы между экранами"
+      ],
+      "final": [
+        "Супер, ты отлично справился с задачей!"
+      ],
+      "stages": {
+        "1": [
+          "Компонент `App` должен возвращать только контейнер навигации с подключенным стэк навигатором.",
+          "В стэке должен быть два экрана - первый с именем `Frontend`, а второй с именем `Backend`.",
+          "Первый экран должен отображать компонент `screens/FrontendScreen`, второй - `screens/BackendScreen`",
+          "При этом первым должен загружаться экран `Frontend`.",
+          "Не изменяй компоненты `screens/FrontendScreen` и `screens/BackendScreen`."
+        ],
+        "2": [
+          "Теперь добавим переходы между экранами.",
+          "С экрана `Frontend` должен быть переход на экран `Backend` при нажатии на кнопку `Check BE stack`",
+          "С экрана `Backend` должен быть переход на экран `Frontend` при нажатии на кнопку `Check FE stack`"
+        ]
+      }
+    }
+  }
+}

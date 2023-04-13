@@ -1,0 +1,113 @@
+{
+  "jsLectureId": 354,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Menu app",
+      "description": [
+        "New mini project - development of a menu application. Let's get to work!"
+      ],
+      "final": [
+        "Super, you did a great job!"
+      ],
+      "stages": {
+        "1": [
+          "We'll use `SectionList` because the menu has different sections.",
+          "You can see the prepared data in the file` data.js`.",
+          "Export the data to `App.js` file and use them for the `sections` field.",
+          "We will define our own `keyExtractor` for the list. The method must return the `uid` field for each list item.",
+          "Add two methods to the` App` class: `renderSectionHeader` and` renderItem`. Let each just return `null` for now.",
+          "For the` SectionList` element, specify both the `renderSectionHeader` and` renderItem` properties by passing the appropriate class methods. "
+        ],
+        "2": [
+          "Let's work out the `renderSectionHeader` method. It should return the `Text` element.",
+          "Display the section's `menuSection` property as inner text.",
+          "Hint: the `renderSectionHeader` argument will be an object with a `section` field, the value of which will be an element of the `sectionsData` array.",
+          "Output the text in uppercase (convert with JS).",
+          "Horizontal padding should be 10, top padding should be 30.",
+          "Font size - 30, text should be bold, text color - `#E3771C`."
+        ],
+        "3": [
+          "Let's work on the `renderItem` method. It should return the `View` element.",
+          "Element vertical margins should be 10 and horizontal paddings 30.",
+          "This container must have two children: the first is` View` and the second is `Text`.",
+          "The next step is to work on the first of these children, and then the second."
+        ],
+        "4": [
+          "And so, let's work through the first child of the container returned from` renderItem`. We also have this `View`.",
+          "Items in it will be displayed in a row, to do this, set the` flexDirection` property to `row`.",
+          "The `justifyContent` property must be equal to `space-between`.",
+          "This `View` must contain two `Text` elements.",
+          "The first should output the `name` field of the list item, the second should output the `price`.",
+          "Hint: as the argument `renderItem` there will be an object with the field `item`, the value of which will be an element of the array `data`, for each section `sectionsData`.",
+          "The font size of each element must be 20.",
+          "The right padding of the first text element must be 20, the text must be bold.",
+          "The width of the first text element must be 70% of the width of the screen."
+        ],
+        "5": [
+          "Let's work on the second child of the container returned from `renderItem`. We have this `Text`.",
+          "Inside this element, the value of the `description` field of the list item should be displayed.",
+          "The width of the text element must be 60% of the width of the screen.",
+          "The color of the text should be `#86B87E` and it should be displayed in italics.",
+          "Top margin should be 4."
+        ]
+      }
+    },
+    "ru": {
+      "title": "Приложение-меню",
+      "description": [
+        "Новый мини проект - разработка приложения-меню. Приступим к работе!"
+      ],
+      "final": [
+        "Супер, ты отлично справился с задачей!"
+      ],
+      "stages": {
+        "1": [
+          "Будем использовать `SectionList`, ведь в меню есть разные разделы.",
+          "Подготовленные данные можешь увидеть в файле `data.js`.",
+          "Импортируй данные в файл `App.js` и используй их для поля `sections`.",
+          "`keyExtractor` определим для списка свой. Метод должен возврата поле `uid` для каждого элемента списка.",
+          "Классу `App` добавь два метода: `renderSectionHeader` и `renderItem`. Пусть каждый пока возвращает просто `null`.",
+          "Элементу `SectionList` укажи оба свойства `renderSectionHeader` и `renderItem`, передав соответствующие методы класса."
+        ],
+        "2": [
+          "Проработаем метод `renderSectionHeader`. Он должен возвращать элемент `Text`.",
+          "В качестве внутреннего текста отобрази свойство `menuSection` секции.",
+          "Подсказка: в качестве аргумента `renderSectionHeader` будет объект с полем `section`, значением которого будет элемент массива `sectionsData`.",
+          "Текст выводи в верхнем регистре (преобразуй с помощью JS).",
+          "Горизонтальные отступы должны быть 10, верхний отступ - 30.",
+          "Размер шрифта - 30, текст должен быть жирным, цвет текста - `#E3771C`."
+        ],
+        "3": [
+          "Проработаем метод `renderItem`. Он должен возвращать элемент `View`.",
+          "Вертикальные поля элемента должны быть 10, а горизонтальные отступы - 30.",
+          "У этого контейнера должно быть два дочерних элемента: первый `View`, а второй `Text`.",
+          "На следующем шаге проработаем первый из этих дочерних элементов, а потом и второй."
+        ],
+        "4": [
+          "И так, проработаем первый дочерний элемент контейнера, возвращаемого из `renderItem`. У нас это тоже `View`.",
+          "Элементы в нем будут выводится в строку, для этого укажи свойству `flexDirection` значение `row`.",
+          "Свойство `justifyContent` должно равняться `space-between`.",
+          "Внутри этого `View` должно быть два элемента `Text`.",
+          "Первый должен выводит поле `name` элемента списка, второй - `price`.",
+          "Подсказка: в качестве аргумента `renderItem` будет объект с полем `item`, значением которого будет элемента массива `data`, каждой секции `sectionsData`.",
+          "Размер шрифта каждого элемента должен быть 20.",
+          "Правый отступ первого текстового элемента должен быть 20, текст должен быть жирным.",
+          "Ширина первого текстового элемента должна равняться 70% от ширины экрана."
+        ],
+        "5": [
+          "Проработаем второй дочерний элемент контейнера, возвращаемого из `renderItem`. У нас это `Text`.",
+          "Внутри этого элемента должно выводится значение поля `description` элемента списка.",
+          "Ширина текстового элемента должна равняться 60% от ширины экрана.",
+          "Цвет текста должен быть `#86B87E`, а выводится он должен курсивом.",
+          "Верхнее поле должно быть 4."
+        ]
+      }
+    }
+  }
+}

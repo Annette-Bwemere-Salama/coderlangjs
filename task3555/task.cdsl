@@ -1,0 +1,55 @@
+{
+  "jsLectureId": 355,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "React Navigation",
+      "description": [
+        "Let's practice passing parameters when changing screens."
+      ],
+      "stages": {
+        "1": [
+          "The `App` component should only return a navigation container with a stacked navigator.",
+          "There should be two screens in the stack - the first with the name `Games`, the second with the name `Details`.",
+          "The first screen should display the `screens/GamesList` component, the second one should display the `screens/GameDetails` component.",
+          "The `Games` screen should load first.",
+          "Do not modify the components `screens/GamesList`, `screens/GameDetails`."
+        ],
+        "2": [
+          "Clicking on any `TouchableOpacity` element on the `GamesList` screen should jump to `Details`.",
+          "During the transition, the entire object describing the game (`item`) must be passed to the `Details` screen."
+        ]
+      },
+      "final": [
+        "Super, you did a great job!"
+      ]
+    },
+    "ru": {
+      "title": "Навигация React",
+      "description": [
+        "Потренируемся передавать параметры при смене экранов."
+      ],
+      "stages": {
+        "1": [
+          "Компонент `App` должен возвращать только контейнер навигации с подключенным стэк навигатором.",
+          "В стэке должен быть два экрана - первый с именем `Games`, второй с именем `Details`.",
+          "Первый экран должен отображать компонент `screens/GamesList`, второй - `screens/GameDetails`.",
+          "При этом первым должен загружаться экран `Games`.",
+          "Не изменяй компоненты `screens/GamesList`, `screens/GameDetails`."
+        ],
+        "2": [
+          "При нажатии на любой элемент `TouchableOpacity` на экране `GamesList` должен происходит переход на `Details`.",
+          "Во время перехода весь объект, описывающий игру (`item`) должен передаваться на экран `Details`."
+        ]
+      },
+      "final": [
+        "Супер, ты отлично справился с задачей!"
+      ]
+    }
+  }
+}
