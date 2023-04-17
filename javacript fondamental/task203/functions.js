@@ -1,9 +1,9 @@
 export function startProgressBar(progressBar,delay) {
   progressBar = 0;
   const interval = setInterval(() => {
-    progressBar += 10;
+    progressBar += 100;
     console.log(`Progress: ${progressBar}%`);
-    if (progressBar >= 100) {
+    if (progressBar >= 1000) {
       clearInterval(interval);
       console.log('Progress complete!');
     }
