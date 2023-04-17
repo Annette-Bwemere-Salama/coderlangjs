@@ -1,0 +1,57 @@
+{
+  "jsLectureId": 356,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Nesting navigators",
+      "final": [
+        "Success again!"
+      ],
+      "description": [
+        "Let's practice nesting navigators"
+      ],
+      "stages": {
+        "1": [
+          "The` App` component must return a navigation container with a stacked navigator. ",
+          "This navigator should have two screens. The first one named` Home` should have a `screen / Home` component.",
+          "The header of the Home screen must be hidden.",
+          "The second should display a tab navigator named `Settings`.",
+          "The first screen of the tabs, navigator, should be a component `screens/Profile` named `Profile`.",
+          "The second screen is `screens/Settings` named `Settings`. The third screen is `screen/CV` named `CV`."
+        ],
+        "2": [
+          "From the `Home` screen, it is necessary to add the transition to the settings.",
+          "The button has already been added, it remains to write the transition to the `CV` screen."
+        ]
+      }
+    },
+    "ru": {
+      "title": "Вложенные навигаторы ",
+      "description": [
+        "Потренируемся с вложенностью навигаторов"
+      ],
+      "final": [
+        "И снова успех!"
+      ],
+      "stages": {
+        "1": [
+          "Компонент `App` должен возвращать контейнер навигации с подключенным стэк навигатором.",
+          "В этом навигаторе должно быть два экрана. Первый с именем `Home` должен отображать компонент `screens/Home`.",
+          "У экрана `Home` хедер должен быть скрыт.",
+          "Второй должен отображать навигатор вкладок с именем `Settings`.",
+          "Первым экраном навигатора вкладок должен стать компонент `screens/Profile` с именем `Profile`.",
+          "Второй экран - `screens/Settings` с именем `Settings`. Третий - `screens/CV` с именем `CV`"
+        ],
+        "2": [
+          "С экрана `Home` надо доработать переход на настройки.",
+          "Кнопка уже добавлена, осталось написать переход на экран `CV`."
+        ]
+      }
+    }
+  }
+}

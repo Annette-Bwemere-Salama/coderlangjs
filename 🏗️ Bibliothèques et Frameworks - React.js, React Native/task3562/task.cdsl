@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 356,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Dynamic header",
+      "description": [
+        "A navigator with two screens has already been added to the `<App />` component.",
+        "But on the first screen, we don't need a header at all - let's hide it.",
+        "On the second screen, we need to change the header title.",
+        "It should display the movie name. The movie item is passed as route param. Check the `MoviesScreen`",
+        "Screen names cannot be changed."
+      ]
+    },
+    "ru": {
+      "title": "Динамический хедер",
+      "description": [
+        "В `<App />` компоненте уже добавлен навигатор с двумя экранами.",
+        "Но на первом экране нам не нужен хедер вообще - давай его уберем.",
+        "На втором экране нам нужно изменить заголовок хедера.",
+        "Заголовок должен отображать название фильма. Элемент фильма передается как параметр маршрута. Проверь `MoviesScreen`",
+        "Имена экранов изменять нельзя."
+      ]
+    }
+  }
+}

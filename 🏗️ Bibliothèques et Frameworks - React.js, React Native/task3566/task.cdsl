@@ -1,0 +1,55 @@
+{
+  "jsLectureId": 356,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Tab icons",
+      "description": [
+        "Let's practice replacing the text on the buttons for switching tabs with icons"
+      ],
+      "final": [
+        "Super, keep it up! Move on to the next task quickly."
+      ],
+      "stages": {
+        "1": [
+          "The `App` component must return a navigation container with a tab navigator.",
+          "There should two screens in the navigator.",
+          "First screen should be named `Github`, second - `Gitlab`.",
+          "First screen should display `screens/GitHubScreen` component, second - `screens/GitLabScreen`."
+        ],
+        "2": [
+          "Now we will hide the text of the buttons. You need to hide it with one property for all screens at once.",
+          "Next, let's add icons for buttons. For icons, use the component `components/ TabBarIcon`.",
+          "Pay attention, he needs to pass two properties - `focused` and `routeName`."
+        ]
+      }
+    },
+    "ru": {
+      "title": "Иконки вкладок",
+      "description": [
+        "Потренируемся заменять текст на кнопках переключения вкладок на иконки"
+      ],
+      "final": [
+        "Супер, так держать! Переходи скорее к следующей задаче."
+      ],
+      "stages": {
+        "1": [
+          "Компонент `App` должен возвращать только контейнер навигации с подлюченным навигатором вкладок.",
+          "В навигаторе должно быть два экрана.",
+          "Первый экран должен называться `Github`, второй - `Gitlab`.",
+          "На первом экране должен отображаться компонент `screen/GitHubScreen`, на втором - `screen/GitLabScreen`."
+        ],
+        "2": [
+          "Теперь скроем текст кнопок. Скрывать его надо одним свойством для всех экранов сразу.",
+          "Дальше добавим иконки для кнопок. Для иконок используй компонент `components/TabBarIcon`.",
+          "Обрати внимание, ему надо передать два свойства - `focused` и `routeName`."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "jsLectureId": 356,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+  "runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Tab navigation connection",
+      "description": [
+        "Let's practice turning on tab navigation.",
+        "The `App` component must return a navigation container with a tab navigator.",
+        "There should two screens in the navigator.",
+        "First screen should be named `USA`, second - `Canada`.",
+        "First screen should display `screens/USAStateScreen` component, second - `screens/CanadaProvincesScreen`.",
+        "Do not change the `screens/USAStateScreen` and `screens/CanadaProvincesScreen` components"
+      ]
+    },
+    "ru": {
+      "title": "Подключение навигатора вкладок",
+      "description": [
+        "Потренируемся подключать навигацию вкладок.",
+        "Компонент `App` должен возвращать только контейнер навигации с подлеченным навигатором вкладок.",
+        "В навигаторе должно быть два экрана.",
+        "Первый экран должен называться `USA`, второй - `Canada`.",
+        "На первом экране должен отображаться компонент `screen/USAStateScreen`, на втором - `screen/CanadaProvincesScreen`.",
+        "Не меняйте компоненты `screen/USAStateScreen` и `screen/CanadaProvincesScreen`."
+      ]
+    }
+  }
+}
