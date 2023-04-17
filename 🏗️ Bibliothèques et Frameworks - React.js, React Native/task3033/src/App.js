@@ -1,26 +1,21 @@
-import React from 'react'
+import React from 'react';
+
 class App extends React.Component {
     state = {
-        username: "John Doe",
+        userName: 'John Doe'
+    };
+
+    componentDidMount() {
+        this.setState({ userName: 'Jane Doe' });
     }
 
-        componentDidMount() {
-            this.setState({
-                username: "Jane Doe"
-            })
- }
-
     render() {
-		return <div>{this.state.username}</div>
-	}
+        return (
+            <div>
+                {this.state.userName}
+            </div>
+        );
+    }
 }
+
 export default App;
-
-
-
-
-// import React, { Component } from 'react'
-// import PropTypes from 'prop-types'
-
-
-
