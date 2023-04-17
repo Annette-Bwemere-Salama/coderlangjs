@@ -1,10 +1,11 @@
-export const startProgressBar = (progressBar, delay) => {
-  const timer = setInterval(() => {
-    let progress = 0
-    progressBar.tick();
-    if (progressBar.complete) {
-      delay
-      console.log('DONE!');
+export function startProgressBar(progressBar,delay) {
+  progressBar = 0;
+  const interval = setInterval(() => {
+    progressBar += 10;
+    console.log(`Progress: ${progressBar}%`);
+    if (progressBar >= 100) {
+      clearInterval(interval);
+      console.log('Progress complete!');
     }
-  }, 100);
+  }, delay);
 }
