@@ -1,20 +1,14 @@
-import React, { Component } from 'react'
-// import React from 'react';
-
+import React from 'react'
 class App extends React.Component {
     state = {
-        username: "",
+        username: "John Doe",
     }
 
-    componentDidMount() {
-        handleCountIncrement = () => {
-		this.setState({ username: this.state.username = "John Doe" });
-	}
-    }
-
-        handleCountIncrement = () => {
-		this.setState({ username: this.state.username = "John Doe" });
-	}
+        componentDidMount() {
+            this.setState({
+                username: "Jane Doe"
+            })
+ }
 
     render() {
 		return <div>{this.state.username}</div>
