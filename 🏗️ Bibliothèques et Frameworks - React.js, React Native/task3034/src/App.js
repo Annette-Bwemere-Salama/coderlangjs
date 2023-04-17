@@ -3,7 +3,8 @@ import User from './User';
 
 class App extends React.Component {
   render() {
-    return <User userName="Tony Stark"/>
+    const userName = "Tony Stark"
+    return <User userName={userName}/>
   }
 }
 export default App;
