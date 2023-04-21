@@ -141,7 +141,40 @@ export const CONFIG = {
         }
     ],
 
-    achievements: [],
+    achievements: [
+        {
+            "id": 1,
+            "title": "Tarot cards",
+            "description": "The first million gold collected.",
+            "condition": {
+                "currency": 1000000
+            },
+            "pictureURL": "https://learn.coderslang.com/tarot.svg"
+        },
+        {
+            "id": 2,
+            "title": "Staff of Power",
+            "description": "Tamed 10 dragons!",
+            "condition": {
+                "producers": [
+                    {
+                        "id": 8,
+                        "quantity": 10
+                    }
+                ]
+            },
+            "pictureURL": "https://learn.coderslang.com/staff.svg"
+        },
+        {
+            "id": 3,
+            "title": "Treasure chest",
+            "description": "Collected 100M gold",
+            "condition": {
+                "currency": 100000000
+            },
+            "pictureURL": "https://learn.coderslang.com/treasure.svg"
+        },
+    ],
 
     chitChat: [],
 
