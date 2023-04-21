@@ -11,3 +11,4 @@ export const formatNumber = (n) => {
     return shortValue + suffixes[suffixNum];
   }
 }
+
