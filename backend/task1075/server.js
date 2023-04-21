@@ -1,5 +1,5 @@
 import express from 'express';
-
+import { CONFIG } from './constants';
 const server = express();
 
 //Here, we'll implement our routes and middleware
@@ -10,4 +10,9 @@ server.get('/check', (req, res, next) => {
     // next()
 })
 
+server.get('/config', (req, res, next) => {
+    res.json(
+        CONFIG
+    )
+})
 export { server };
