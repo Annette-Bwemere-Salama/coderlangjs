@@ -1,9 +1,11 @@
 import express from 'express';
-
+// import jsonConfig from "./constants"
+import { config } from './constants';
 const server = express();
 
 server.get('/config', (req, res) => {
-  //send the response here
+  const conf = config
+  return  res.json(conf);
 })
 
 export { server };
