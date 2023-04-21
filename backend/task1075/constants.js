@@ -176,7 +176,32 @@ export const CONFIG = {
         },
     ],
 
-    chitChat: [],
+    chitChat: [
+        {
+            "message": "We need more gold"
+        },
+        {
+            "message": "Would you like to know the secret to eternal happiness? Page 246."
+        },
+        {
+            "message": "More souls for the master!",
+            "condition": {
+                "currency": 1000
+            }
+        },
+        {
+            "message": "Do you think that you can click your way to the win?",
+            "condition": {
+                "clicks": 100
+            }
+        },
+        {
+            "message": "The universe is at your feet, my lord!",
+            "condition": {
+                "achievementId": 2
+            }
+        }
+    ],
 
     prestigeLevels: [
         {
