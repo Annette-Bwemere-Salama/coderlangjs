@@ -178,7 +178,44 @@ export const CONFIG = {
 
     chitChat: [],
 
-    prestigeLevels: [],
+    prestigeLevels: [
+        {
+            "id": 1,
+            "title": "Beginner",
+            "pictureURL": "https://learn.coderslang.com/beginner_medal.svg",
+            "multiplier": 1,
+            "condition": {
+                "currency": 0
+            }
+        },
+        {
+            "id": 2,
+            "title": "Pro",
+            "pictureURL": "https://learn.coderslang.com/cup_pro.svg",
+            "multiplier": 2,
+            "condition": {
+                "currency": 100000000000000000000
+            }
+        },
+        {
+            "id": 3,
+            "title": "Expert",
+            "pictureURL": "https://learn.coderslang.com/cup_expert.svg",
+            "multiplier": 4,
+            "condition": {
+                "currency": 1e+30
+            }
+        },
+        {
+            "id": 4,
+            "title": "Master",
+            "pictureURL": "https://learn.coderslang.com/cup_master.svg",
+            "multiplier": 8,
+            "condition": {
+                "currency": 1e+40
+            }
+        }
+    ],
 };
 
 
