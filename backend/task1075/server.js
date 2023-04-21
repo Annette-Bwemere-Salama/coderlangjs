@@ -6,6 +6,8 @@ const server = express();
 
 server.get('/check', (req, res, next) => {
     
+        res.json({ version: '0.0.1' })
+    // next()
 })
 
 export { server };
