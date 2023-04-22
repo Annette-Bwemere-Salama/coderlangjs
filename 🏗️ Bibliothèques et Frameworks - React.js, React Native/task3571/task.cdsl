@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 357,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Error modal",
+      "description": [
+        "A modal has already been added to the` <App /> `component.",
+        "But its display is somehow wrong.",
+        "Modal window should be displayed when pressing on `Cause error`",
+        "The background of the modal must be transparent."
+      ]
+    },
+    "ru": {
+      "title": "Модалка с ошибкой",
+      "description": [
+        "В компоненте `<App />` уже добавлено модальное окно.",
+        "Но его отображение какое-то неправильное.",
+        "Модальное окно должно отображаться при нажатии на `Cause error`.",
+        "Задний фон модального окна должен быть прозрачен."
+      ]
+    }
+  }
+}

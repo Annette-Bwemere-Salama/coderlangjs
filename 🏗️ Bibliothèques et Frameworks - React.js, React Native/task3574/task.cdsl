@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 357,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Alert with buttons",
+      "description": [
+        "When you click on the `Confirm agreement` border, an `Alert` should appear with the `Please confirm` title.",
+        "`Alert` should show a message - `Do you agree?` And two buttons - `Sure` and `No, no, no`. ",
+        "When you click on the first button, a message should appear on the screen - `You have agreed to become super developer`.",
+        "When you click on the second - `Alert` should just close. "
+      ]
+    },
+    "ru": {
+      "title": "Alert с кнопками",
+      "description": [
+        "При нажатии на кнопку `Confirm agreement` должен появится `Alert` с заголовком `Please confirm`.",
+        "`Alert` должен показать сообщение - `Do you agree?` и две кнопки- `Sure` и `No, no, no`.",
+        "При нажатии на первую кнопку на экране должно появится сообщение - `You have agreed to become super developer`.",
+        "При нажатии на вторую - `Alert` должен просто закрыться."
+      ]
+    }
+  }
+}

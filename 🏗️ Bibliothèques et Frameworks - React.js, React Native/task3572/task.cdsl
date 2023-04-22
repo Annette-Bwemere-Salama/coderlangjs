@@ -1,0 +1,31 @@
+{
+  "jsLectureId": 357,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Check before close",
+      "description": [
+        "You need to add a modal window to the` <App /> `component. Let's add it right before the button.",
+        "Clicking this button should open a modal window.",
+        "Modal window should open full screen with white background.",
+        "In the middle of the window, there should be a button that, when clicked, should close the modal.",
+        "The button title should be - `Hide modal`"
+      ]
+    },
+    "ru": {
+      "title": "",
+      "description": [
+        "В компоненте `<App />` надо добавить модальное окно. давай добавим его сразу перед кнопкой.",
+        "Нажатие на эту кнопку должно открывать модальное окно.",
+        "Модально окно должно открываться на весь экран с белым (white) задним фоном.",
+        "По середине окна должна размещаться кнопка, при нажатии на которую модалка должна закрыться.",
+        "Текст кнопки должен быть `Hide modal`"
+      ]
+    }
+  }
+}

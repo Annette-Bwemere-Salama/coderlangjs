@@ -1,0 +1,29 @@
+{
+  "jsLectureId": 357,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Drawer navigation",
+      "description": [
+        "Let's practice adding Drawer navigation.",
+        "The App component must be a navigation container with a Drawer navigator.",
+        "You need to add three screens named `Asia`, `Europe`, `NorthAmerica` - in that order.",
+        "Components for screens, respectively: `screens/AsiaCities`, `screens/EuropeCities`,`screens/NorthAmericaCities`."
+      ]
+    },
+    "ru": {
+      "title": "Скрываемая навигация",
+      "description": [
+        "Потренируемся добавлять скрываемую навигацию.",
+        "Компонент App должен быть навигационным контейнером с Drawer навигатором.",
+        "Нужно добавить три экрана с именами `Asia`, `Europe`, `NorthAmerica` - именно в этом порядке.",
+        "Компоненты для экранов соответсвенно: `screens/AsiaCities`, `screens/EuropeCities`, `screens/NorthAmericaCities`."
+      ]
+    }
+  }
+}

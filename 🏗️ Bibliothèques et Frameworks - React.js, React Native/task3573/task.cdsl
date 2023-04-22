@@ -1,0 +1,27 @@
+{
+  "jsLectureId": 357,
+  "reward": 10,
+  "tutors": [
+    "Sigma"
+  ],
+  "testEngine": "reactNative",
+"runAs": "native",
+  "i18n": {
+    "en": {
+      "title": "Alert",
+      "description": [
+        "A button has already been added to the `<App />` component. You have to modify the click handler.",
+        "When you click on the button, an `Alert` should appear without a title. And there should be a message - `Request was successfully sent`",
+        "Only the default button should appear in this `Alert`."
+      ]
+    },
+    "ru": {
+      "title": "Внимание",
+      "description": [
+        "В `<App />`  компоненте уже добавленна кнопка. Тебе предстоит доработать обработчик нажатия.",
+        "При нажатии на кнопку должен появится `Alert` без заголовку. И должно быть сообщение - `Request was successfully sent`",
+        "В этом `Alert` должна появится только кнопка по умолчанию."
+      ]
+    }
+  }
+}
