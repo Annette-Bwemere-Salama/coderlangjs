@@ -1,3 +1,5 @@
-export const splitLog = (str) => {
-    str.split('').map(el => console.log(el));
+export const writeLog = (str) => {
+    const newLine = process.stdout.write("\n")
+    str.split('').map(el => process.stdout.write(el));
+    newLine
 }
