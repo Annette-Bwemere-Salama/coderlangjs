@@ -6,4 +6,4 @@ Hello, world 👋!
 Let's make our Console Output Fun and Interactive in JavaScript and Node.js 🚀
 `;
 
-writeLog(message);
+await writeLog(message);
