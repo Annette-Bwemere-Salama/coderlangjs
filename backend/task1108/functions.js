@@ -1,3 +1,3 @@
-export const log = (string) => {
-    console.log(string);
+export const splitLog = (str) => {
+    str.split('').map(el => console.log(el));
 }
