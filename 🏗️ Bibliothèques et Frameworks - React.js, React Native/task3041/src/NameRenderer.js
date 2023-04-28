@@ -1,8 +1,11 @@
 import React from 'react';
 
 export default class NameRenderer extends React.Component {
-  state = {
-    name: ''
+ static getDerivedStateFromProps(props) {
+   return {
+     name: 
+       `${props.firstName} ${props.lastName}`
+   }
   }
 
   render() {
