@@ -1,10 +1,13 @@
 import React from 'react';
 
 export default class User extends React.Component {
+  state = {
+    userName:this.props.userName
+  }
+  // const { userName } = this.props
   render() {
-    const { userName } = this.props
     return (
-      <div>User: {userName}</div>
+      <div>User: {this.state.userName}</div>
     )
   }
 }
