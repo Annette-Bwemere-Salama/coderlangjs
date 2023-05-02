@@ -1,5 +1,5 @@
 import { sleep } from "./helper";
-export const funkylog = ({ delay, randomized }) => {
+export const funkylog = ({ delay = 100, randomized }) => {
     return async (str) => {
         for (let i = 0; i < str.length; i++) {
             process.stdout.write(str[i]);
