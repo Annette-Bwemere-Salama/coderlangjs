@@ -1,12 +1,9 @@
 // import { sleep } from "./helper";
 
-export const splitLog =  (string) => {   
+export const writeLog =  (string) => {   
     // return string.split('');
     for (let i = 0; i < string.length; i++) {
-        
-        // console.log('====================================');
-        console.log(string[i]);
-        // console.log('====================================');
-        
+        process.stdout.write(string[i]);
     }
+    process.stdout.write('\n');
 }
