@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Styles</title>
-  </head>
-  <body>
-    <h1 style="color: blue">Styles we have learned</h1>
-    <p style="color: saddlebrown">
-      <span style="font-weight: bold">font-size: </span>
-      sets the size of the font.
-    </p>
-    <p style="color: saddlebrown">
-      <span style="font-weight: bold">color: </span>
-      sets the text-color for different elements.
-    </p>
-    <p style="color: saddlebrown">
-      <span style="font-weight: bold">text-align</span>
-      sets the text alignment for different elements.
-    </p>
-  </body>
+
+<head>
+  <title>Styles</title>
+</head>
+<style>
+  #page-header {
+    color: blue;
+  }
+  .description{
+    color: saddlebrown;
+  }
+  .tag-name{
+    font-weight: bold;
+  }
+</style>
+
+<body>
+  <h1 id="page-header">Styles we have learned</h1>
+  <p  class="description">
+    <span class="tag-name">font-size: </span>
+    sets the size of the font.
+  </p>
+  <p  class="description">
+    <span class="tag-name">color: </span>
+    sets the text-color for different elements.
+  </p>
+  <p class="description">
+    <span class="tag-name">text-align</span>
+    sets the text alignment for different elements.
+  </p>
+</body>
+
 </html>
