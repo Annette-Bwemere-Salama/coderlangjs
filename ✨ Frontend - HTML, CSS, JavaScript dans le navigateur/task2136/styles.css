@@ -1,0 +1,16 @@
+#regular {
+  @font-face {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./fonts/OpenSans-Regular.ttf');
+  }
+}
+#ligth {
+  @font-face {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: italic;
+    src: url('./fonts/OpenSans-LightItalic.ttf');
+  }
+}
