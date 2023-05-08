@@ -1,16 +1,23 @@
-#regular {
-  @font-face {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-style: normal;
-    src: url('./fonts/OpenSans-Regular.ttf');
-  }
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
-#ligth {
-  @font-face {
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-style: italic;
-    src: url('./fonts/OpenSans-LightItalic.ttf');
-  }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+div {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
 }
