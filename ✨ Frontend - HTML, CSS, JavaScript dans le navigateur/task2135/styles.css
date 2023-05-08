@@ -2,9 +2,10 @@
     font-family: OpenSans;
     font-weight: 600;
     font-style: italic;
-    src: url("./OpenSans-SemiBoldItalic.ttf") format('truetype');
+    src: url("./fonts/OpenSans-SemiBoldItalic.ttf") format('truetype');
 }
 
 p {
     font-family: OpenSans;
+    font-family: serif;
 }
