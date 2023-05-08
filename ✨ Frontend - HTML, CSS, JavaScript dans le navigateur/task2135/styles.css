@@ -6,6 +6,6 @@
 }
 
 p {
-    font-family: OpenSans;
-    font-family: serif;
+    font-family: OpenSans, serif;
+    /* font-family: serif; */
 }

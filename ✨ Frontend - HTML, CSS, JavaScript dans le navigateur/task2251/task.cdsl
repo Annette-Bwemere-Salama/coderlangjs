@@ -1,0 +1,542 @@
+{
+  "jsLectureId": 225,
+  "reward": 40,
+  "tutors": [
+    "Sigma"
+  ],
+  "entryPoint": "index.html",
+  "runAs": "html",
+  "i18n": {
+    "en": {
+      "title": "Mining Empire landing",
+      "final": [
+        "Congratulations! This is your first landing! Continue learning with us to build more cool sites and apps."
+      ],
+      "description": [
+        "We will develop a landing page for a mobile game. This is where all the knowledge you gain will come in handy! Let's get started?"
+      ],
+      "stages": {
+        "1": [
+          "At the first stage we'll add a page title.",
+          "The page title must be `Mining Empire`.",
+          "Also let's add favicon: `favicon.ico` in the `images` folder.",
+          "All styles will be written in the `styles.css` file, add and connect it right away."
+        ],
+        "2": [
+          "Let's start by adding navigation.",
+          "First, let's add the semantic `header` tag.",
+          "The first child of the `header` will be the `div.container` element.",
+          "Inside the `.container` (which will be used in all blocks) add a semantic navigation tag.",
+          "Inside the navigation, there will first be a `div.logo-container` logo container.",
+          "The logo must be a link pointing to `#`.",
+          "Inside the link, add the image `logo.png` from the `images` folder.",
+          "The size of both the `.logo-container` and the image inside must be `60px`."
+        ],
+        "3": [
+          "Let's add some styling.",
+          "`header` must have a background color of `#E4ECEE`.",
+          "The `.container` should have a maximum width of `1320px` - we'll modify it later for different displays.",
+          "`.container` must be horizontally centered - use `margin` for this.",
+          "We'll also add a `div.menu-block` flex container to the `header`.",
+          "Use `margin-left` to align it to the right of the `header`.",
+          "Inside the `div.menu-block` add `ul.main-menu` with two `li.nav-item`.",
+          "Each list item must contain `a.nav-item-link`: the first with the text `About app`, the second with the text `Learn with us`.",
+          "The first one should lead to the `#about` block, and the second one should lead to the `#learn` block."
+        ],
+        "4": [
+          "Let's include the font `Jost` from the `fonts` folder.",
+          "All elements must use the fonts `Jost` and `sans-serif`.",
+          "For all elements at once, change the `box-sizing` to `border-box` and remove the margins."
+        ],
+        "5": [
+          "Styling the navigation. `nav` and `.main-menu` should be flex containers.",
+          "Within a `nav`, children must be vertically centered. ",
+          "The left indentation of `.main-menu` must be zero; list items must have no bullets.",
+          "Navigation links must have no underscore, the bottom should be `35px 20px 33px 20px`, the font size is `1rem`.",
+          "The line height of each link must be `1.5`, each must be a block element.",
+          "The color of the link text is `rgb (31, 31, 31)`; we will also compress the text by`0.4px`."
+        ],
+        "6": [
+          "Let's add a `div.header-btn` element just after the `div.menu-block`.",
+          "This item must be a flex container.",
+          "Inside the `div.header-btn` add one link with the class `download-btn`; the link should lead to the `#download` block.",
+          "Link text - `Download for free`. ",
+          "Let's add the styles for `.download-btn` right away: the size of the `1rem` font, which should be compressed by `0.4px`.",
+          "Line height must be `10px`, font color `#ffffff`; height `40px`.",
+          "The background color is `#1f1f1f` and the edges are rounded by `3px`.",
+          "Left margin should be `15px`, padding should be `15px`.",
+          "Don't forget to remove the underscore from the link."
+        ],
+        "7": [
+          "Let's go to the main block - add the `main` tag right after the `header`.",
+          "The main block will consist of several sections. The first is `section.banner-section`.",
+          "Inside each section we will add a `div.container`. ",
+          "The container will have rows and columns inside.",
+          "Add `div.row` with two columns `div.column`, the second with additional class - `column-offset`.",
+          "",
+          "The first section will have a banner. Inside the first `div.column` add `div.banner`.",
+          "`div.banner` must contain the `banner.png` image from the` images` folder. ",
+          "",
+          "The second column will contain the content. Then add `div.content`.",
+          "`div.content` will consist of a `h1` heading and a paragraph.",
+          "Title text - `Start mining with us today!`.",
+          "The text of the paragraph is `Earn gold, get rich, upgrade your level, collect achievements!`."
+        ],
+        "8": [
+          "Styles again!",
+          "The background color of the `.banner-section` should be `#E4ECEE`.",
+          "All further `.row` elements must be grid containers with `25px 24px 0 24px` padding.",
+          "Initially, all lines must have two identical columns.",
+          "",
+          "The maximum width of the image inside the `.banner` is `100%`, the maximum height is `550px`.",
+          "The element `.column-offset` must have a left margin of `8%`. ",
+          "The `.content` element must have a top padding of `75px`.",
+          "The font size of the `h1` heading inside `.content` must be `70px` and the line-height is `72px`.",
+          "A paragraph inside `.content` has a font size of `24px` and a line height of `36px`. ",
+          "The paragraph text color is `#222F3F`, and the text itself is compressed by `0.3px`; margins are `25px 0px 35px 0px` ",
+          "",
+          "When adding styles to elements without a class, remember - it's always best to bind from to the parent's class!"
+        ],
+        "9": [
+          "Let's add a second section inside `main`. The second section should have a class `description-section`.",
+          "The rest of the structure (`.container`, `.row`,` .column`) is the same as in the first section.",
+          "`div.content` will now be in the first column.",
+          "The text of the `h1` heading inside the `.content` will be `Mining Empire`. ",
+          "There will be two paragraphs now.",
+          "The first one with the text `Mining Empire is an addictive incremental game where your progress accelerates the more you play.`.",
+          "The second one with the text `Become a great Miner and get cash in this clicker adventure game.`",
+          "",
+          "Inside the second column, the `div.section-image` must contain the image `screen1.png`."
+        ],
+        "10": [
+          "The `div.container` from the second section must have a `border-bottom` class.",
+          "This class should add a bottom border - `1px solid #dee2e6`.",
+          "The `description-section` element must have a top padding of `75px`.",
+          "The maximum height of both `.section-image` and the image inside must be `400px`."
+        ],
+        "11": [
+          "Let's add another section `.description-section`.",
+          "Inside the first column there will be a `div.section-image` with the image `screen2.png`.",
+          "There will be `div.content` inside the second column.",
+          "The heading text is `h1` - `Learn with us`.",
+          "There will also be two paragraphs here.",
+          "The first is `Do you want to learn how to build such an application?`.",
+          "The second is `Just visit our page and we will help you!`."
+        ],
+        "12": [
+          "Now let's add a comment section - `section.comments-section`.",
+          "The structure is similar, but there will be two `div.row`.",
+          "The first should have an additional class `one-column`, the second should have a `columns-view`.",
+          "",
+          "Inside the first `div.row` there will only be a `h2` header with the text `Users are loving Mining Empire`.",
+          "",
+          "Inside the second there should be six `div.card` elements - this will be the comment card.",
+          "Each card must have a paragraph inside, followed by a `div.user`.",
+          "The username `div.user` will consist of `div.user-image` and `div.user-name`.",
+          "Inside each `div.user-image` is an image, inside each `div.user-name` is `h5`."
+        ],
+        "13": [
+          "Texts for paragraphs of each box:",
+          " - `First impressions on first day of launch: stable, and has all the UI parts working fine.` as inner text`;",
+          " - `I like it it is very fun to play! Very good game, nice idea and good concept!`;",
+          " - `This game is phenomenal! It has a very simple but addicting playthrough.`;",
+          " - `Probably the best idle game ever. No hard pushed ads to make you buy stuff to advance to next level.`;",
+          " - `It's very calming and addictive! I personally would recommend people play this game!`;",
+          " - `From what I have played, this game seems really cool! I highly recommend this game!`.",
+          "",
+          "Links to avatars for each card:",
+          " - `https://i.pravatar.cc/75?u=001`;",
+          " - `https://i.pravatar.cc/75?u=002`;",
+          " - `https://i.pravatar.cc/75?u=003`;",
+          " - `https://i.pravatar.cc/75?u=004`;",
+          " - `https://i.pravatar.cc/75?u=005`;",
+          " - `https://i.pravatar.cc/75?u=007`.",
+          "",
+          "Usernames for each card:",
+          " - `John Doe`;",
+          " - `Mark Simpson`;",
+          " - `Robert The First`;",
+          " - `Jade Fox`",
+          " - `Tameka Parker`;",
+          " - `Alexandra King`."
+        ],
+        "14": [
+          "Now let's style the comment block.",
+          "The background color of `.comments-section` should be `#E4ECEE`, and the top padding is `50px`, the bottom one is `32px`.",
+          "The `.one-column` element must have one column.",
+          "The element `.columns-view` must initially have three columns, the spacing between columns and rows is `32px`.",
+          "",
+          "The font size of the header `h2` of the `.comments-section` section must be `60px`, the line height should be `64px`.",
+          "The text in the title must be centered.",
+          "",
+          "The background of each comment card must be `#ffffff`.",
+          "Also, the corners of each card should be rounded by `5px`.",
+          "The padding inside the card is `32px`. Well, the cards should become a flex column.",
+          "The free space between the elements of the card must be the same."
+        ],
+        "15": [
+          "The font size of the paragraph inside `.card` must be `18px`.",
+          "Line height should be `32px`, text should be compressed by `0.1px`.",
+          "Text color `#1F1F1F`, bottom margin `24px`.",
+          "",
+          "Each `.card .user` must be a flex container.",
+          "The avatar width should be `50px` and the radius should be `50%`. ",
+          "The right margin of each avatar must be `22px`.",
+          "",
+          "The font size of the `.user h5` title should be `17px`, the line height should be `28px`.",
+          "The title text is compressed by `0.3px` and its color is `#1F1F1F`."
+        ],
+        "16": [
+          "Add another section `.join-section`.",
+          "The structure is the same as in the previous section.",
+          "The only difference is in the second `.row` - it must have a second `one-column` class.",
+          "The first` .row` must have one `h2` header:` Join over 10,000+ happy users`. ",
+          "The second` .row` must have a `div.app-buttons` element."
+        ],
+        "17": [
+          "Let's add two links inside the `div.app-buttons`.",
+          "Each link should open in a new tab.",
+          "The first link should lead to the AppStore: `https://apps.apple.com/us/app/coderslang-learn-programming/id1489105103`.",
+          "The second link should open PlayMarket: `https://play.google.com/store/apps/details?id=com.coderslang.com&hl=en&gl=US`.",
+          "",
+          "Each link must contain an image: `appstore.svg` and `googleplay.png`, respectively.",
+          "Each image must have a `platform` class and a `large` class."
+        ],
+        "18": [
+          "The top padding of the` .join-section` section must be `30px`, the bottom padding is `50px`. ",
+          "`.app-buttons` should be a flex container that should center the items.",
+          "The height of each `.platform.large` element must be `70px`.",
+          "Links inside `.app-buttons` must have vertical margins of zero, horizontal margins of `24px`."
+        ],
+        "19": [
+          "Let's also add these buttons to the first section.",
+          "Copy the `div.app-buttons` with all the children and add to the `section.banner-section .content`.",
+          "Replace only `large` with `small` for` platform` elements ",
+          "And immediately add the style for `.platform.small`: height `50px`.",
+          "",
+          "We'll also add scrolling right away.",
+          "The section `.banner-section` must have an `id` `about`. ",
+          "The first section `.description-section` must have an `id` `learn`. ",
+          "The section `.join-section` must have an `id` `download`. ",
+          "",
+          "And add links to `.nav-item-link`: `#about` and `#learn`. ",
+          "The `.download-btn` must have a `#download` link. "
+        ],
+        "20": [
+          "Now let's add `footer`, right after `main`.",
+          "The structure is as before:` .container`, `.row`.",
+          "`.row` must be of class `.one-column`.",
+          "Inside `.row.one-column` add a `div.copyright` element, inside which add a paragraph.",
+          "Paragraph text: `&copy; Coderslang 2021 All right reserved.`. ",
+          "",
+          "The vertical padding of `footer` must be `30px`.",
+          "`.copyright` should be a flex container and right-justified."
+        ],
+        "21": [
+          "Time to add adaptive.",
+          "There will be five rules for all types of screens with the following` max-width`: `1400px`, `1200px`, `992px`, `768px`, `575px`.",
+          "And we will immediately change the` max-width` `.container` for each rule: `1140px`, `960px`, `720px`, `540px`, `90vw`, respectively."
+        ],
+        "22": [
+          "Let's start with responsive for the smallest screens (575px).",
+          " - links inside `.app-buttons` must be placed in a column; ",
+          " - links inside `.app-buttons` must not have a left margin; ",
+          " - links inside `.app-buttons` for `.join-section` must be centered (use margin);",
+          " - `.columns-view` must have one column for a comment; ",
+          " - maximum width of `.section-image img` must be `80vw`;",
+          " - `.description-section .content` must not have a top padding; ",
+          " - `.header-btn` must be hidden; ",
+          "",
+          "Let's move on to the bigger ones (768px):",
+          " - font size `.content h1` must be `34px`;",
+          " - line height `.content h1` must be `40px`;",
+          "",
+          "For screens up to 992px:",
+          " - line height `.content h1` must be `46px`;",
+          " - font size `.content h1` must be `40px`;",
+          "",
+          "For screens up to 1200px:",
+          " - line height `.content h1` must be `70px`;",
+          " - font size `.content h1` must be `60px`;"
+        ],
+        "23": [
+          "For screens up to 992px:",
+          " - `.banner-section` the bottom margin must be `40px`;",
+          " - `.banner-section .row` and `.description-section .row` must be in the same column;",
+          " - `.column-offset` must not have a left margin; ",
+          " - in the third `.description-section`, the first column should move to the second place; ",
+          " - the elements `.banner-section .app-buttons` must be moved to the beginning of the container; ",
+          " - the first link `.banner-section .app-buttons` must have no left margin; ",
+          " - `.section-image img` must be centered (use margin, don't blow out, change the display of the image); ",
+          " - `.columns-view` must have two columns for comments. "
+        ]
+      }
+    },
+    "ru": {
+      "title": "Лендинг Mining Empire",
+      "final": [
+        "Поздравляю! Это твой первый лэндинг! Продолжайте учиться вместе с нами, чтобы создавать больше интересных сайтов и приложений."
+      ],
+      "description": [
+        "Мы будем разрабатывать лендинг для мобильной игры. Здесь тебе пригодятся все полученные знания! Приступим?"
+      ],
+      "stages": {
+        "1": [
+          "На первом этапе мы добавим заголовок странице.",
+          "Заголовок страницы должен быть `Mining Empire`.",
+          "Также давай давай сразу добавим favicon: `favicon.ico` в папке `images`.",
+          "Все стили будем писать в файле `styles.css` добавь и подключи его сразу."
+        ],
+        "2": [
+          "Начнем с добавления навигации.",
+          "Для начала добавим семантический тег `header`.",
+          "Первым дочерним элементом для `header` будет элемент `div.container`.",
+          "Внутри `.container` (его будет использовать во всех блоках) добавь семантический тег навигации.",
+          "Внутри навигации сначала будет контейнер логотипа `div.logo-container`.",
+          "Логотип должен быть ссылкой, указывающей на `#`.",
+          "Внутри ссылки добавь изображение `logo.png` из папки `images`.",
+          "Размер и `.logo-container` и изображения внутри должен быть `60px`."
+        ],
+        "3": [
+          "Добавим немного стилей.",
+          "У `header` цвет заднего фона должен быть `#E4ECEE`.",
+          "У `.container` максимальная ширина должна быть `1320px` - позже доработаем для разных дисплеев.",
+          "`.container` должен быть отцентрирован по горизонтали - используй для этого `margin`.",
+          "Еще добавим flex контейнер `div.menu-block` в `header`.",
+          "С помощью `margin-left` выровняй его по правому краю `header`.",
+          "Внутри `div.menu-block` добавь `ul.main-menu` с двумя `li.nav-item`.",
+          "Каждый элемент списка должен содержать `a.nav-item-link`: первая с текстом  `About app`, вторая `Learn with us`.",
+          "Первая должна вести к блоку `#about`, а вторая - `#learn`."
+        ],
+        "4": [
+          "Подключим шрифта `Jost` из папки `fonts`.",
+          "Для всех элементом должен применяться шрифты `Jost` и `sans-serif`.",
+          "Сразу для всех элементов изменим `box-sizing` на `border-box` и уберем внешние поля."
+        ],
+        "5": [
+          "Стилизуем навигацию. `nav` и `.main-menu` должны стать flex контейнерами.",
+          "Внутри `nav` дочерний элементы должны быть выравнены вертикально по центру.",
+          "Левый отступ `.main-menu` должен быть нулевым; у элементов списка не должно быть маркеров.",
+          "Ссылки навигации должны быть без нижнего подчеркивания, отступы - `35px 20px 33px 20px`, размер шрифта - `1rem`.",
+          "Высота строки каждой ссылки должно быть `1.5`, у каждая должна быть блочным элементом.",
+          "Цвет текста ссылки - `rgb(31, 31, 31)`; текст также сожмем на `0.4px`."
+        ],
+        "6": [
+          "Добавим элемент `div.header-btn` сразу после `div.menu-block`.",
+          "Этот элемент должен быть flex контейнером.",
+          "Внутри `div.header-btn` добавим одну ссылку с классом `download-btn`; ссылка должна вести к блоку `#download`.",
+          "Текст ссылки - `Download for free`.",
+          "Сразу добавим стили для `.download-btn`: размер шрифта `1rem`, который должен быть сжат на `0.4px`.",
+          "Высота строки должна быть `10px`, цвет шрифта `#ffffff`; высота `40px`.",
+          "Цвет заднего фона `#1f1f1f`, а края скруглены на `3px`.",
+          "Левое поле должно быть `15px`, отступы должны быть `15px`.",
+          "Не забудь убрать у ссылки нижнее подчеркивание."
+        ],
+        "7": [
+          "Перейдем к основному блоку - добавим тег `main` сразу после `header`.",
+          "Основной блок будет состоять из нескольких секций. Первая - `section.banner-section`.",
+          "Внутри каждой секции будем добавлять `div.container`.",
+          "Контейнер будет состоять из строк и колонок внутри.",
+          "Добавь `div.row` с двумя колонками `div.column`, вторая с дополнительным классом - `column-offset`.",
+          "",
+          "Первая секция будет с банером. Внутри первого `div.column` добавь `div.banner`.",
+          "`div.banner` должен содержать изображение `banner.png` из папки `images`.",
+          "",
+          "Вторая колонка будет содержать контент. Тогда добавим `div.content`.",
+          "`div.content` будет состоять из заголовка `h1` и параграфа.",
+          "Текст заголовка - `Start mining with us today!`.",
+          "Текст параграфа - `Earn gold, get rich, upgrade your level, collect achievements!`."
+        ],
+        "8": [
+          "И снова стили!",
+          "Цвет заднего фона секции `.banner-section` должен быть `#E4ECEE`.",
+          "Все элементы `.row`, которых дальше будет больше, должны быть grid контейнерами с отступами `25px 24px 0 24px`.",
+          "Изначально все строки должны быть с двумя одинаковыми колонками.",
+          "",
+          "Максимальная ширина изображения внутри `.banner` - `100%`, максимальная высота - `550px`.",
+          "У элемента `.column-offset` должно быть левое поле `8%`.",
+          "У элемента `.content` верхний отступ должен быть `75px`.",
+          "Размер шрифта заголовка `h1` внутри `.content` должен быть `70px`, а высота строки `72px`.",
+          "У параграфа внутри `.content` размер шрифта - `24px`, высота строки - `36px`.",
+          "Цвет текста параграфа - `#222F3F`, а сам текст сжат на `0.3px`; поля - `25px 0px 35px 0px`",
+          "",
+          "При добавлении стилей для элементов без класса помни - всегда лучше привязать из к классу родителя!"
+        ],
+        "9": [
+          "Добавим вторую секцию внутри `main`. У второй секции должен быть класс `description-section`.",
+          "Вся остальная структура (`.container`, `.row`, `.column`) как и у первой секции.",
+          "`div.content` теперь будет в первой колонке.",
+          "Текст заголовка `h1` внутри `.content` будет `Mining Empire`.",
+          "Параграфов теперь будет два.",
+          "Первый с текстом `Mining Empire is an addictive incremental game where your progress accelerates the more you play.`.",
+          "Второй с текстом `Become a great Miner and get cash in this clicker adventure game.`",
+          "",
+          "Внутри второй колонки `div.section-image` должен содержать изображение `screen1.png`."
+        ],
+        "10": [
+          "У `div.container` из второй секции должен быть класс `border-bottom`.",
+          "Этот класс должен добавлять нижнюю границу - `1px solid #dee2e6`.",
+          "У элемента `description-section` должен быть верхний отступ `75px`.",
+          "Максимальная высота и `.section-image`, и изображения внутри должна равняться `400px`."
+        ],
+        "11": [
+          "Добавим еще одну секцию `.description-section`.",
+          "Внутри первой колонки будет `div.section-image` с изображением `screen2.png`.",
+          "Внутри второй колонки будет `div.content`.",
+          "Текст заголовка `h1` - `Learn with us`.",
+          "Здесь также будет два параграфа.",
+          "Первый - `Do you want to learn how to build such an application?`.",
+          "Второй - `Just visit our page and we will help you!`."
+        ],
+        "12": [
+          "Теперь добавим секцию комментариев - `section.comments-section`.",
+          "Структура похожая, но тут будет уже два `div.row`.",
+          "У первого должен быть дополнительный класс `one-column`, у второго - `columns-view`.",
+          "",
+          "Внутри первого `div.row` будет только заголовок `h2` с текстом `Users are loving Mining Empire`.",
+          "",
+          "Внутри второго должно быть шесть элементов `div.card` - это будет карточка комментария.",
+          "Внутри каждой карточки должен быть параграф, а после него - `div.user`.",
+          "Описание пользователя `div.user` будет состоять из `div.user-image` и `div.user-name`.",
+          "Внутри каждого `div.user-image` - изображение, внутри каждого `div.user-name` - `h5`."
+        ],
+        "13": [
+          "Тексты для параграфов каждой карточки:",
+          " - `First impressions on first day of launch: stable, and has all the UI parts working fine.` as inner text`;",
+          " - `I like it it is very fun to play! Very good game, nice idea and good concept!`;",
+          " - `This game is phenomenal! It has a very simple but addicting playthrough.`;",
+          " - `Probably the best idle game ever. No hard pushed ads to make you buy stuff to advance to next level.`;",
+          " - `It's very calming and addictive! I personally would recommend people play this game!`;",
+          " - `From what I have played, this game seems really cool! I highly recommend this game!`.",
+          "",
+          "Ссылки на аватарки для каждой карточки:",
+          " - `https://i.pravatar.cc/75?u=001`;",
+          " - `https://i.pravatar.cc/75?u=002`;",
+          " - `https://i.pravatar.cc/75?u=003`;",
+          " - `https://i.pravatar.cc/75?u=004`;",
+          " - `https://i.pravatar.cc/75?u=005`;",
+          " - `https://i.pravatar.cc/75?u=007`.",
+          "",
+          "Имена пользователей для каждой карточки:",
+          " - `John Doe`;",
+          " - `Mark Simpson`;",
+          " - `Robert The First`;",
+          " - `Jade Fox`",
+          " - `Tameka Parker`;",
+          " - `Alexandra King`."
+        ],
+        "14": [
+          "Теперь стилизуем блок комментариев.",
+          "Цвет заднего фона `.comments-section` должен быть `#E4ECEE`, а верхний отступ `50px`, нижний - `32px`.",
+          "У элемента `.one-column` должна быть одна колонка.",
+          "У элемента `.columns-view` изначально должно быть три колонки, расстояние между колонками и строками `32px`.",
+          "",
+          "Размер шрифта заголовка `h2` секции `.comments-section` должен быть `60px`, а высота линии - `64px`.",
+          "Текст в заголовке должен быть выравнен по центру.",
+          "",
+          "Задний фон каждой карточки комментариев должен быть `#ffffff`.",
+          "Также углы каждой карточки надо скруглить на `5px`.",
+          "Отступы внутри карточки - `32px.`. Ну и карточки должны стать flex колонкой.",
+          "Свободное пространство между элементами карточки должно быть одинаковым."
+        ],
+        "15": [
+          "Размер шрифта параграфа внутри `.card` должен быть `18px`.",
+          "Высота строки - `32px`, текст должен быть сжат на `0.1px`.",
+          "Цвет текст `#1F1F1F`, нижнее поле - `24px`.",
+          "",
+          "Каждый `.card .user` должен быть flex контейнером.",
+          "Ширина аватарки должна быть `50px`, а радиус скругления - `50%`.",
+          "Правое поле каждой аватарки должно быть `22px`.",
+          "",
+          "Размер шрифта заголовка `.user h5` должен составлять `17px`, высота строки - `28px`",
+          "Текст заголовка сжат на `0.3px`, а его цвет - `#1F1F1F`."
+        ],
+        "16": [
+          "Добавь еще одну секцию `.join-section`.",
+          "Структура такая же, как и в предыдущей секции.",
+          "Отличие только во втором `.row` - у него должен быть второй класс `one-column`.",
+          "В первом `.row` должен быть один заголовок `h2`: `Join over 10,000+ happy users`.",
+          "Во втором `.row` должен быть элемент `div.app-buttons`."
+        ],
+        "17": [
+          "Нужны кнопки, по которым можно скачать приложения.",
+          "Добавим две ссылки внутри `div.app-buttons`.",
+          "Каждая ссылка должна открываться в новой вкладке.",
+          "Первая ссылка должна вести в AppStore: `https://apps.apple.com/us/app/coderslang-learn-programming/id1489105103`.",
+          "Вторая ссылка должна открыть PlayMarket: `https://play.google.com/store/apps/details?id=com.coderslang.com&hl=en&gl=US`.",
+          "",
+          "Внутри каждой ссылки должно быть изображение: `appstore.svg` и `googleplay.png` соответственно.",
+          "У каждого изображения должен быть класс `platform` и класс `large`."
+        ],
+        "18": [
+          "Верхний отступ секции `.join-section` должен быть `30px`, нижний - `50px`.",
+          "`.app-buttons` должен быть flex контейнером, который должен центрировать элементы.",
+          "Высота каждого `.platform.large` элемента должна быть `70px`.",
+          "У ссылок внутри `.app-buttons` вертикальные поля должны быть нулевыми, горизонтальные - `24px`."
+        ],
+        "19": [
+          "Также добавим эти же кнопки в первую секцию.",
+          "Скопируй `div.app-buttons` со всеми дочерними элементами и добавь в `section.banner-section .content`.",
+          "Замени только класс `large` на `small` для элементов `platform`",
+          "И сразу добавь стиль для `.platform.small`: высота `50px`.",
+          "",
+          "Также сразу добавим прокрутку.",
+          "У секции `.banner-section` должен быть `id` `about`.",
+          "У первой секции `.description-section` должен быть `id` `learn`.",
+          "У секции `.join-section` должен быть `id` `download`.",
+          "",
+          "И проставим ссылки у `.nav-item-link`: `#about` и `#learn`.",
+          "У `.download-btn` должны быть ссылка `#download`."
+        ],
+        "20": [
+          "Добавим теперь `footer`, сразу после `main`.",
+          "Структура как и ранее: `.container`, `.row`.",
+          "`.row` должен быть с классом `.one-column`.",
+          "Внутри `.row.one-column` добавь элемент `div.copyright`, внутри которого добавь параграф.",
+          "Текст параграфа: `&copy; Coderslang 2021 All right reserved.`.",
+          "",
+          "Вертикальные отступы `footer` должны быть `30px`.",
+          "`.copyright` должен быть flex контейнером и выравнивать все по правому краю."
+        ],
+        "21": [
+          "Время добавить адаптив.",
+          "Всего будет пять правил для всех типов экранов со следующими `max-width`: `1400px`, `1200px`, `992px`, `768px`, `575px`.",
+          "И сразу изменим `max-width` `.container` для каждого правила: `1140px`, `960px`, `720px`, `540px`, `90vw`, соответственно."
+        ],
+        "22": [
+          "Начнем с адаптивом для самых маленьких экранов (575px).",
+          " - ссылки внутри `.app-buttons` должны располагаться в колонку;",
+          " - у ссылок внутри `.app-buttons` не должно быть левого поля;",
+          " - ссылки внутри `.app-buttons` для `.join-section` должны быть выравнены по-центру (используй margin);",
+          " - у `.columns-view` для комментариев должна быть одна колонка;",
+          " - максимальная ширина `.section-image img` должна быть `80vw`;",
+          " - у `.description-section .content` не должно быть верхнего отступа;",
+          " - `.header-btn` должна быть скрыта.",
+          "",
+          "Перейдем к эранам побольше (768px):",
+          " - размер шрифта `.content h1` должен быть `34px`;",
+          " - высота строки `.content h1` должен быть `40px`.",
+          "",
+          "Для экранов до 992px: ",
+          " - высота строки `.content h1` должен быть `46px`;",
+          " - размер шрифта `.content h1` должен быть `40px`.",
+          "",
+          "Для экранов до 1200px: ",
+          " - высота строки `.content h1` должен быть `70px`;",
+          " - размер шрифта `.content h1` должен быть `60px`."
+        ],
+        "23": [
+          "Для экранов до 992px: ",
+          " - `.banner-section` нижний отступ должен быть `40px`;",
+          " - `.banner-section .row` и `.description-section .row` должны состоять из одной колонки;",
+          " - у `.column-offset` не должно быть левого поля;",
+          " - у третей `.description-section` первая колонка должна сместится на второе место;",
+          " - элементы `.banner-section .app-buttons` должны быть смещены в начало контейнера;",
+          " - первая ссылка `.banner-section .app-buttons` должна быть без левого поля;",
+          " - `.section-image img` должны быть центрированы (используй margin, не забудь поменять отображение картинки);",
+          " - у `.columns-view` для комментариев должно быть две колонки."
+        ]
+      }
+    }
+  }
+}
